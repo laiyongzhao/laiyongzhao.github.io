@@ -2,7 +2,7 @@ html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label{mar
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section{display: block;}
 html, body{line-height: 1;min-height:100%;font-family:Artial, Verdana, sans-serif;}
-body{background: #eeeeee;background:url("../images/bg.jpg") fixed center top no-repeat;background: -webkit-linear-gradient(top, #eeeeee, #cccccc 100%);background: -moz-linear-gradient(top, #eeeeee, #cccccc 100%);background: -o-linear-gradient(top, #eeeeee, #cccccc 100%);background: -ms-linear-gradient(top, #eeeeee, #cccccc 100%);background: linear-gradient(top, #eeeeee, #cccccc 100%);background-attachment:fixed;background-size:cover;}
+body{background: #eeeeee;background: -webkit-linear-gradient(top, #eeeeee, #cccccc 100%);background: -moz-linear-gradient(top, #eeeeee, #cccccc 100%);background: -o-linear-gradient(top, #eeeeee, #cccccc 100%);background: -ms-linear-gradient(top, #eeeeee, #cccccc 100%);background: linear-gradient(top, #eeeeee, #cccccc 100%);background-attachment:fixed;background:url("../images/bg.jpg") fixed center top no-repeat;background-size:cover;}
 ol, ul{list-style: none;}
 p{margin:1em 0;line-height:1.1em;}
 q{font-style:italic;color:#333;}
