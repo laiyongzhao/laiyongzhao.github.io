@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEEK basketball</title>
+<!-- Bootstrap -->
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/main2.css" rel="stylesheet">
+	<style type="text/css">
+		#preload_area {
+			background-image: url(images/mix.jpg);
+			width: 0px;
+			height: 0px;
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+
+
+<div class="vidpops">
+<table width="100%" height="100%" class="main-table" >
+   <tbody>
+    <tr class="top-row frame-color">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; padding-top: 1%;" class="frame-color"><a href="#" class="brut-desktop quote-div-backbutton"><span>SEEK°</span></a></td>
+		<span class="quote-div-back-div quote-div-backbutton back-btn-vid">
+			<a href="#"  class="quote-div-backbutton">zurück</a>#
+		</span>
+		<span class="quote-div-name back-btn-vid"><a href="#" target="_blank" style="color:white;"></a></span>
+		<td style="background-color: black; position: relative;">
+			<div style="position: absolute; background-color: #000; opacity: 0.8; width:100%; height:100%; top:0; left:0;" class="quote-div">
+				<span class="quote-div-text"></span>
+			</div>
+			<div style="max-width: 80%;  text-align: center; margin:auto;">
+				<video id="video" style="width: 100%; max-height: 900px;" poster="data:image/gif,AAAA">
+					  <source src="" type="video/mp4">
+				</video>
+			</div>
+		<div id="video-controls">
+			<input type="range" id="seek-bar" min="0" max="100" step="1" value="0" class="seekbarstyle">
+			<table width="100%" height="80%" style="border-collapse: collapse;" border="0">
+			  <tbody>
+				<tr>
+				  <td style="width: 50%"><a id="play-pause" class="playPauseFull">play</a></td>
+				  <td style="width: 50%"><a id="full-screen" class="playPauseFull">fullscreen</a></td>
+				</tr>
+			  </tbody>
+			</table>
+		</div>
+     	</td>
+      <td style="vertical-align: bottom; padding-bottom: 1%;" class="frame-color"><span class="info-desktop"><a href="#" class="open-info">info</a></span></td>
+    </tr>
+    <tr class="bottom-row frame-color">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="infopops">
+<table id="info-popup-table" width="100%" height="100%" class="main-table" >
+   <tbody>
+    <tr class="top-row" style="background-color: #fff;">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="background-color: #fff; vertical-align: top; padding-top: 1%;"><a href="#" class="brut-desktop cls-pop"><span>SEEK°</span></a>
+      </td>
+		<td style="background-color: #e3f5fa; position: relative;">
+			<div class="infopops_title">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 360 112" style="enable-background:new 0 0 360 112;" xml:space="preserve">
+				    <g class="sekai-logo-seek">
+				        <path d="M56.8,47.9c-0.6-2-1.5-3.8-2.7-5.5c-1.2-1.7-2.8-3.2-4.6-4.6c-1.8-1.3-4-2.4-6.4-3.1c-0.9-0.3-2.5-0.7-4.7-1.3
+				      c-2.2-0.6-4.4-1.2-6.7-1.8c-2.3-0.6-4.4-1.2-6.2-1.7c-1.9-0.5-2.9-0.8-3.2-0.9c-2.5-0.7-4.5-1.8-6-3.1c-1.5-1.3-2.2-3.1-2.2-5.5
+				      c0-1.7,0.4-3.1,1.1-4.2c0.8-1.1,1.8-2,3-2.7c1.2-0.7,2.6-1.2,4.1-1.4c1.5-0.3,3-0.4,4.4-0.4c4.2,0,7.7,0.9,10.4,2.8
+				      c2.6,1.8,4.1,4.9,4.5,9.4l0,0.6h14v-0.7c0-3.9-0.8-7.3-2.3-10.3C51.8,10.5,49.7,8,47.1,6c-2.6-2-5.6-3.5-9-4.5
+				      c-6.3-1.8-13.7-2.1-20.7-0.2c-3.2,0.9-6.2,2.2-8.7,4C6.1,7.1,4,9.4,2.4,12.1c-1.6,2.8-2.4,6.1-2.4,9.8c0,1.9,0.3,3.9,0.8,5.8
+				      c0.5,1.9,1.4,3.7,2.7,5.4c1.3,1.7,3,3.2,5.1,4.6c2.1,1.4,4.8,2.5,7.9,3.3c4.9,1.3,9.2,2.4,12.6,3.3c3.4,0.8,6.4,1.7,8.9,2.7
+				      c1.4,0.5,2.7,1.4,3.8,2.6c1.1,1.2,1.7,3.1,1.7,5.7c0,1.3-0.3,2.5-0.8,3.7c-0.5,1.2-1.3,2.3-2.4,3.2c-1.1,1-2.7,1.7-4.5,2.4
+				      c-1.9,0.6-4.2,0.9-6.9,0.9c-2.5,0-4.8-0.3-6.9-0.8l-9.6,9.6c1.2,0.5,2.5,1,3.9,1.4c3.7,1,7.7,1.5,11.8,1.5c3.6,0,7.2-0.4,10.7-1.3
+				      c3.5-0.9,6.7-2.2,9.4-4.1c2.8-1.9,5-4.3,6.7-7.3c1.7-3,2.6-6.6,2.6-10.7C57.6,51.8,57.3,49.8,56.8,47.9z"></path>
+				        <g>
+				            <polygon points="95.2,63.1 95.2,43.3 131.7,43.3 131.7,31.6 81.2,31.6 81.2,75.4 135.3,75.4 135.3,63.1"></polygon>
+				            <polygon points="134.6,1.7 111.1,1.7 98.8,14 134.6,14"></polygon>
+				        </g>
+				        <g>
+				            <polygon points="95.2,63.1 95.2,43.3 131.7,43.3 131.7,31.6 81.2,31.6 81.2,75.4 135.3,75.4 135.3,63.1" transform="translate(75,0)"></polygon>
+				            <polygon points="134.6,1.7 111.1,1.7 98.8,14 134.6,14" transform="translate(75,0)"></polygon>
+				        </g>
+				        <polygon points="196.3,31.3 225.9,1.7 208.4,1.7 177.2,33.6 177.2,1.7 163.1,1.7 163.1,64.7 186.7,41.2 210.1,75.4 227.6,75.4" transform="translate(75,0)"></polygon>
+				    </g>
+				</svg>
+			</div>
+    		<div class="infopops_description"><span>SEEK于2017年在美丽的厦门成立，</span></div>
+    		<div class="infopops_konzipiert"><span>全体成员</span></div>
+    		<div class="infopops_mitglieder"><span class="desktop-stuff">廖建基 #3<br>颜秋鑫 #5<br>周懋钾 #6<br>肖义杭 #7<br>林家桢 #8<br>谢伟杰 #9<br>林玉涵 #10<br>崔鹏飞 #13<br>谢治清 #25<br>赖永钊 #91</span>
+			<table width="100%" height="100%" class="infopops-mitglieder-table mobile-stuff" >
+				<tbody>
+					<tr>
+						<td>
+						<span>廖建基 #3<br>颜秋鑫 #5<br>周懋钾 #6<br>肖义杭 #7<br>林家桢 #8<br>谢伟杰 #9<br>林玉涵 #10<br>崔鹏飞 #13<br>谢治清<br>赖永钊 #91
+						</span></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+
+			<div class="with-support-title mobile-stuff"><span>SEEK篮球俱乐部</span></div>
+			<div class="with-support-content mobile-stuff">
+    		<span>SEEK于2017年在美丽的厦门成立，</span></div>
+    		<div class="infopops_presse_title"><strong>联系方式</strong></div>
+    		<div class="infopops_presse_content">
+    		<span>中国 福建<br>厦门市<br>E-Mail:  <a href="mailto:seek@seek.cn">seek@seek.cn</a></span></div>
+    		<div class="infopops_previous_title"><strong>其他</strong></div>
+    		<div class="infopops_previous_content"><span>
+    		<a href="http://vol1.brut-magazin.de" target="_blank" >Seek 1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		<a href="http://vol4.brut-magazin.de" target="_blank" style="padding-left: 3px;" >Seek 4</a><br>
+    		<a href="http://vol2.brut-magazin.de" target="_blank" >Seek 2</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		<a href="http://brut5.brut-magazin.de" target="_blank" >Seek 5</a><br>
+    		<a href="http://vol3.brut-magazin.de" target="_blank" >Seek 3</a>
+    		</span></div>
+    		<div class="infopops-back-button mobile-info-cls mobile-stuff"><span><a href="#" class="info-desktop-cls">&lt;&nbsp;back</a></span></div>
+     	</td>
+      <td style="background-color: #fff; vertical-align: bottom; padding-bottom: 1%;">
+      	<span class="info-desktop info-desktop-cls"><a href="#">info</a></span>
+      </td>
+    </tr>
+    <tr class="bottom-row" style="background-color: #fff;">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="pops" id="pops">
+<table id="popup-table" width="100%" height="100%" class="main-table" >
+   <tbody>
+    <tr class="top-row frame-color">
+      <td></td>
+      <td style="text-align: center;">
+     	 <span class="top-slide-button hover-color desktop-stuff"><a href="#" class="btn">o</a></span>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle; padding-top: 1%; position: relative;" class="frame-color">
+	      <span class="hover-color" style="position: absolute; top:2%;"><a href="#" class="brut-desktop cls-pop hover-color">SEEK°</a></span>
+	      <span class="left-slide-button hover-color desktop-stuff"><a href="#" class="btn">o</a></span>
+      </td>
+		<td style="background-color: white; position: relative;">
+			<div class="teaser-coordinates-link-area"><a href="#" target="_blank"></a></div>
+			<div class="teaser-background-img">
+				<span class="teaser-coordinates"></span>
+			</div>
+			<div class="teaser-gif-img"></div>
+			<div class="teaser-brut-button hover-color"><a href="#brut" class="cls-pop">SEEK°</a></div>
+			<div class="teaser-quote"><span class="teaser-quote-span"></span></div>
+			<div class="teaser-name hover-color"><a  target="_blank" href="#brut" class="cls-pop teaser-name-a"></a></div>
+    		<div class="teaser-play-button hover-color"><a href="#brut" class="play-vid">PLAY</a></div>
+    		<div class="teaser-text"><span class="teaser-text-span">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span></div>
+    		<div class="teaser-info-button hover-color"><a href="#brut" class="open-info">info</a></div>
+     	</td>
+
+      <td style="padding-bottom: 1%;" class="frame-color right-side-vertical-align">
+		<span class="right-slide-button hover-color desktop-stuff"><a href="#" class="btn">o</a></span>
+		<span class="right-slide-button mobile-stuff">
+		<a href="#" class="btn"></a></span>
+      	<span class="info-desktop hover-color"><a href="#" class="open-info">info</a></span>
+      </td>
+    </tr>
+    <tr class="bottom-row frame-color">
+      <td></td>
+      <td style="text-align: center;">
+      	<span class="bottom-slide-button hover-color desktop-stuff"><a href="#" class="btn">o</a></span>
+      	<span class="bottom-slide-button hover-color mobile-stuff"><a href="#" class="btn">
+      	</a></span>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<table id="main-table" width="100%" height="100%" class="main-table" >
+   <tbody>
+    <tr class="top-row">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="background-color: white; vertical-align: top; padding-top: 1%;"><a id="CD0Link" href="#" class="brut-desktop"><span>SEEK°</span></a></td>
+		<td>
+     	<table id="content-table" width="100%" height="100%" class="content-table">
+			<tbody id="landing" class="landing">
+				<tr><td class="Hi-wir-sind-brut"><div id="typedtext" style=""></div></td></tr>
+			</tbody>
+			<tbody id="desktop-version" class="desktop-version">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="n0"><a id="CD1Link" href="#" class="grid-item"><span id="CD1C">C1</span></a></td>
+				<td class="n1"><a id="CD2Link" href="#" class="grid-item"><span id="CD2C">C2</span></a></td>
+				<td class="n2"><a id="CD3Link" href="#" class="grid-item"><span id="CD3C">C3</span></a></td>
+				<td class="n3"><a id="CD4Link" href="#" class="grid-item"><span id="CD4C">C4</span></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="n4"><a id="CD5Link" href="#" class="grid-item"><span id="CD5C">C5</span></a></td>
+				<td class="n5"><a id="CD6Link" href="#" class="grid-item"><span id="CD6C">C6</span></a></td>
+				<td class="n6"><a id="CD7Link" href="#" class="grid-item"><span id="CD7C">C7</span></a></td>
+				<td class="n7"><a id="CD8Link" href="#" class="grid-item"><span id="CD8C">C8</span></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="n8"><a id="CD9Link" href="#" class="grid-item"><span id="CD9C">C9</span></a></td>
+				<td class="n9"><a id="CD10Link" href="#" class="grid-item"><span id="CD10C">C10</span></a></td>
+				<td class="n10"><a id="CD11Link" href="#" class="grid-item"><span id="CD11C">C11</span></a></td>
+				<td class="n11"><a id="CD12Link" href="#" class="grid-item"><span id="CD12C">C12</span></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="n12"><a id="CD13Link" href="#" class="grid-item"><span id="CD13C">C13</span></a></td>
+				<td class="n13"><a id="CD14Link" href="#" class="grid-item"><span id="CD14C">C14</span></a></td>
+				<td class="n14"><a id="CD15Link" href="#" class="grid-item"><span id="CD15C">C15</span></a></td>
+				<td class="n15"><a id="CD16Link" href="#" class="grid-item"><span id="CD16C">C16</span></a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			</tbody>
+			<tbody id="mobile-version" class="mobile-version">
+			<tr>
+				<td><a id="C0Link" href="#" class="brut"><span>SEEK°</span></a></td>
+				<td class="n0"><a id="C1Link" href="#" class="grid-item"><span id="C1C"></span></a></td>
+				<td class="n1"><a id="C2Link" href="#" class="grid-item"><span id="C2C"></span></a></td>
+
+			</tr>
+			<tr>
+				<td class="n2"><a id="C3Link" href="#" class="grid-item"><span id="C3C"></span></a></td>
+				<td class="n3"><a id="C4Link" href="#" class="grid-item"><span id="C4C"></span></a></td>
+				<td class="n4"><a id="C5Link" href="#" class="grid-item"><span id="C5C"></span></a></td>
+			</tr>
+			<tr>
+				<td class="n5"><a id="C6Link" href="#" class="grid-item"><span id="C6C"></span></a></td>
+				<td class="n6"><a id="C7Link" href="#" class="grid-item"><span id="C7C"></span></a></td>
+				<td class="n7"><a id="C8Link" href="#" class="grid-item"><span id="C8C"></span></a></td>
+			</tr>
+			<tr>
+				<td class="n8"><a id="C9Link" href="#" class="grid-item"><span id="C9C"></span></a></td>
+				<td class="n9"><a id="C10Link" href="#" class="grid-item"><span id="C10C"></span></a></td>
+				<td class="n10"><a id="C11Link" href="#" class="grid-item"><span id="C11C"></span></a></td>
+			</tr>
+			<tr>
+				<td class="n11"><a id="C12Link" href="#" class="grid-item"><span id="C12C"></span></a></td>
+				<td class="n12"><a id="C13Link" href="#" class="grid-item"><span id="C13C"></span></a></td>
+				<td class="n13"><a id="C14Link" href="#" class="grid-item"><span id="C14C"></span></a></td>
+			</tr>
+			<tr>
+				<td class="n14"><a id="C15Link" href="#" class="grid-item"><span id="C15C"></span></a></td>
+				<td class="n15"><a id="C16Link" href="#" class="grid-item"><span id="C16C"></span></a></td>
+			  	<td><span class="info open-info"><a href="#">info</a></span></td>
+			</tr>
+			</tbody>
+     	</table>
+     	</td>
+      <td style="background-color: white; vertical-align: bottom; padding-bottom: 1%;"><span class="info-desktop open-info"><a href="#">info</a></span></td>
+    </tr>
+    <tr class="bottom-row">
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.coolType.js"></script>
+<script type="text/javascript" src="js/hammer.min.js"></script>
+<script type="text/javascript" src="js/hammer-time.min.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript">
+	$(function () {
+		window.onload = function() {
+			"use strict";
+
+			// CONTROL VARIABLES
+			var lastScreen = 'none';
+			var topLinkIndex = null;
+			var leftLinkIndex = null;
+			var rightLinkIndex = null;
+			var downLinkIndex =  null;
+
+			var currentRow = null;
+			var currentColumn = null;
+			var delta = null;
+
+			var globalMobile = false;
+
+			var hammertime = new Hammer(document.getElementById("pops"));
+			hammertime.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
+
+			// Video
+			var video = document.getElementById("video");
+
+			// Buttons
+			var playButton = document.getElementById("play-pause");
+			var fullScreenButton = document.getElementById("full-screen");
+
+			// Sliders
+			var seekBar = document.getElementById("seek-bar");
+			var playPauseLogic = function(){
+				if (video.paused === true) {
+					// Play the video
+					video.play();
+
+					// Update the button text to 'Pause'
+					playButton.innerHTML = "pause";
+
+					$('.back-btn-vid').fadeOut();
+					$('.quote-div').fadeOut();
+				} else {
+					// Pause the video
+					video.pause();
+					$('.back-btn-vid').fadeIn();
+					$('.quote-div').fadeIn();
+					// Update the button text to 'Play'
+					playButton.innerHTML = "play";
+				}
+			};
+
+			// Event listener for the play/pause button
+			playButton.addEventListener("click", function() {
+				playPauseLogic();
+			});
+
+
+			// Event listener for the full-screen button
+			fullScreenButton.addEventListener("click", function() {
+				if (video.requestFullscreen) {
+					video.requestFullscreen();
+				} else if (video.mozRequestFullScreen) {
+					video.mozRequestFullScreen(); // Firefox
+				} else if (video.webkitRequestFullscreen) {
+					video.webkitRequestFullscreen(); // Chrome and Safari
+				}
+			});
+
+
+			// Event listener for the seek bar
+			seekBar.addEventListener("change", function() {
+				// Calculate the new time
+				var time = video.duration * (seekBar.value / 100);
+
+				// Update the video time
+				video.currentTime = time;
+			});
+
+
+			// Update the seek bar as the video plays
+			video.addEventListener("timeupdate", function() {
+				// Calculate the slider value
+				var value = parseInt((100 / video.duration) * video.currentTime);
+
+				// Update the slider value
+				seekBar.value = value;
+				 var val = ($('#seek-bar').val() - $('#seek-bar').attr('min')) / ($('#seek-bar').attr('max') - $('#seek-bar').attr('min'));
+				//赖永钊注释console.log("value: "+val);
+				$('#seek-bar').css('background-image',
+								'-webkit-gradient(linear, left top, right top, '
+								+ 'color-stop(' + val + ', #FFF), '
+								+ 'color-stop(' + val + ', #C5C5C5)'
+								+ ')'
+								);
+			});
+
+			// Pause the video when the seek handle is being dragged
+			seekBar.addEventListener("mousedown", function() {
+				video.pause();
+			});
+
+			// Play the video when the seek handle is dropped
+			seekBar.addEventListener("mouseup", function() {
+				video.play();
+			});
+
+			$('#video_id').on('loadstart', function (event) {
+			    $(this).addClass('loading');
+			});
+			$('#video_id').on('canplay', function (event) {
+			    $(this).removeClass('loading');
+			    $(this).attr('poster', '');
+			});
+
+
+			document.body.onkeyup = function(e){
+			    if(e.keyCode == 32){
+			    	playPauseLogic();
+			    }
+			}
+
+			var getNextGridItemIndex = function (index, direction, mobile){
+				var res = 0;
+				var indexes = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+				if(mobile){
+					indexes = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18];
+				}
+				if(mobile){
+					delta = 3;
+				}else{
+					delta = 4;
+				}
+				if(direction=='up'){
+					var nextIndex = index - delta;
+					if(nextIndex<0){
+						nextIndex = nextIndex;
+					}
+					res = indexes[nextIndex];
+				}else if(direction=='left'){
+					var nextIndex = index - 1;
+					if(nextIndex<0){
+						nextIndex = nextIndex;
+					}
+					res = indexes[nextIndex];
+					if((res+1)%delta==0){
+						res = null;
+					}
+				}else if(direction=='right'){
+					var nextIndex = index + 1;
+					if(nextIndex>0){
+						nextIndex = nextIndex;
+					}
+					res = indexes[nextIndex];
+					if(res%delta==0){
+						res = null;
+					}
+
+				}else if(direction=='down'){
+					var nextIndex = index + delta;
+					if(nextIndex>0){
+						nextIndex = nextIndex;
+					}
+					res = indexes[nextIndex];
+
+				}
+				return res;
+			}
+
+
+			var data = getData();
+
+			var clinks = ['C1Link', 'C2Link','C3Link', 'C4Link','C5Link', 'C6Link','C7Link', 'C8Link','C9Link', 'C10Link','C11Link', 'C12Link', 'C13Link', 'C14Link', 'C15Link', 'C16Link'];
+			var cdlinks = ['CD1Link', 'CD2Link','CD3Link', 'CD4Link','CD5Link', 'CD6Link','CD7Link', 'CD8Link','CD9Link', 'CD10Link','CD11Link', 'CD12Link', 'CD13Link', 'CD14Link', 'CD15Link', 'CD16Link'];
+			var clcs = ['C1C','C2C','C3C','C4C','C5C','C6C','C7C','C8C','C9C','C10C','C11C','C12C','C13C','C14C','C15C','C16C'];
+			var cdlcs = ['CD1C','CD2C','CD3C','CD4C','CD5C','CD6C','CD7C','CD8C','CD9C','CD10C','CD11C','CD12C','CD13C','CD14C','CD15C','CD16C'];
+			var cdlcAnimating = false;
+			var previousIndex = null;
+
+
+			//SETUP ON CLICK Listener and callbacks
+			for(var i = 0; i < clinks.length; i++){
+				var name = data.protagonists[i].name;
+				//Set text to grid items
+				$('#CD'+(i+1)+'C').html(name);
+				$('#C'+(i+1)+'C').html(name);
+				// $('#C'+i+'Link').click(function(){
+				// 	$('.pops').fadeIn();
+				// });
+			}
+
+			var setupSliders = function(currentIndex, mobile){
+
+				$(".oval-b"+currentColumn).css('background-color','transparent');
+				$(".oval-r"+currentRow).css('background-color','transparent');
+
+				currentColumn = ((currentIndex+1) % delta) + 1;
+				currentRow = (Math.floor((currentIndex+1) / delta))+1;
+
+				$(".oval-b"+currentColumn).css('background-color','black');
+				$(".oval-r"+currentRow).css('background-color','black');
+
+				topLinkIndex = getNextGridItemIndex(currentIndex,'up',mobile);
+				leftLinkIndex = getNextGridItemIndex(currentIndex,'left',mobile);
+				rightLinkIndex = getNextGridItemIndex(currentIndex,'right',mobile);
+				downLinkIndex = getNextGridItemIndex(currentIndex,'down',mobile);
+
+				$(".top-slide-button").find("a").unbind('click');
+				$(".left-slide-button").find("a").unbind('click');
+				$(".right-slide-button").find("a").unbind('click');
+				$(".bottom-slide-button").find("a").unbind('click');
+
+				if(topLinkIndex != null && !mobile){
+					// $(".top-slide-button").show();
+					$(".top-slide-button").find("a").on("click",function(){setPopupData(topLinkIndex,mobile,function(){});});
+				}else{
+					// $(".top-slide-button").hide();
+				}
+
+				if(leftLinkIndex != null && !mobile){
+					// $(".left-slide-button").show();
+					$(".left-slide-button").find("a").on("click",function(){setPopupData(leftLinkIndex,mobile,function(){});});
+				}else{
+					// $(".left-slide-button").hide();
+				}
+
+				if(rightLinkIndex != null && !mobile){
+					// $(".right-slide-button").show();
+					$(".right-slide-button").find("a").on("click",function(){setPopupData(rightLinkIndex,mobile,function(){});});
+				}else{
+					// $(".right-slide-button").hide();
+				}
+
+				if(downLinkIndex != null && !mobile){
+					// $(".bottom-slide-button").show();
+					$(".bottom-slide-button").find("a").on("click",function(){setPopupData(downLinkIndex,mobile,function(){});});
+				}else{
+					// $(".bottom-slide-button").hide();
+				}
+
+
+
+
+			};
+
+			hammertime.on('swipeleft swiperight swipeup swipedown', function(ev) {
+				if(globalMobile != null){
+					if(ev.type==='swipeup'){
+						setPopupData(topLinkIndex,globalMobile,function(){});
+					}else if(ev.type==='swipeleft'){
+						setPopupData(leftLinkIndex,globalMobile,function(){});
+					}else if(ev.type==='swiperight'){
+						setPopupData(rightLinkIndex,globalMobile,function(){});
+					}else if(ev.type==='swipedown'){
+						setPopupData(downLinkIndex,globalMobile,function(){});
+					}
+				}
+			});
+
+			var setPopupData = function (index, mobile, callback){
+				globalMobile = mobile;
+				if(data.protagonists[index]){
+					var quote = data.protagonists[index].quote.toUpperCase();
+					var link = data.protagonists[index].link;
+					var name = data.protagonists[index].name;
+					var desc = data.protagonists[index].desc;
+					var placemark = data.protagonists[index].placemark;
+					var placemarkLink = data.protagonists[index].placemarkLink;
+					var hoverColor = data.protagonists[index].hoverColor;
+					var fillColor = data.protagonists[index].fillColor;
+
+					var coordsPic = data.protagonists[index].coordsPic;
+					var coordsPicHover = data.protagonists[index].coordsPicHover;
+
+					var video480 = data.protagonists[index].video480;
+					var video720 = data.protagonists[index].video720;
+					var video1080 = data.protagonists[index].video1080;
+
+					var backgroundImg = data.protagonists[index].backgroundImg;
+
+					$('.teaser-quote-span').html(quote);
+					$(".teaser-name-a").attr("href", link);
+					$(".teaser-name-a").html(name);
+					// $(".teaser-coordinates").find("span").text(placemark);
+					$(".teaser-text-span").html(desc);
+					$(".teaser-gif-img").css("background-image", "url(images/gifs/"+(index+1)+".gif)");
+					$(".teaser-background-img").css("background-image", "url(images/drehorte/"+backgroundImg+".jpg)");
+					$(".teaser-coordinates").css("background-image", "url(images/koordinate/"+coordsPic+"_weiss.svg)");
+					$(".frame-color").css("background-color", fillColor);
+					// $(".hover-color").css("color a:hover", hoverColor);
+
+					$(".hover-color").find("a").unbind('mouseenter');
+					$(".hover-color").find("a").unbind('mouseenter');
+
+					$(".hover-color").find("a").mouseenter(function() {
+					  $(this).css("color",hoverColor);
+					});
+					$(".hover-color").find("a").mouseleave(function() {
+					  $(this).css("color","black");
+					});
+					$(".teaser-coordinates-link-area").mouseenter(function() {
+					  $(".teaser-coordinates").css("background-image", "url(images/koordinate/"+coordsPicHover+".svg)");
+					});
+					$(".teaser-coordinates-link-area").mouseleave(function() {
+					  $(".teaser-coordinates").css("background-image", "url(images/koordinate/"+coordsPic+"_weiss.svg)");
+					});
+
+					$(".teaser-coordinates-link-area").find('a').attr("href", placemarkLink);
+
+					// if((previousIndex === index) || mobile){
+					if(true){
+						lastScreen = 'pops';
+						$('.pops').fadeIn();
+					}
+					previousIndex = index;
+
+					//SET VIDEO TEXTs
+					$(".quote-div-text").html(quote);
+					$(".quote-div-name").find("a").html(name);
+					$(".quote-div-name").find("a").attr("href", link);
+
+					setupSliders(index, mobile);
+
+					$('.play-vid').click(function(){
+					//SET VIDEO HERE
+						if(mobile){
+							$('#video source').attr('src', 'videos/'+video480);
+						}else{
+							$('#video source').attr('src', 'videos/'+video1080);
+						}
+						$('.vidpops').fadeIn(function(){
+							$('.infopops').fadeOut();
+							$('.pops').fadeOut();
+							$("#video").load();
+							playPauseLogic();
+						});
+					});
+
+					if(mobile){
+						$("#play-pause").text("play");
+						$("#full-screen").text("zurück");
+						$("#full-screen").on("click",function(){
+							$(".pops").fadeIn(function(){
+								$(".vidpops").fadeOut();
+								video.pause();
+							});
+						});
+					}else{
+						$("#full-screen").text("fullscreen");
+						$("#full-screen").unbind('click');
+					}
+				}
+
+				// $('.quote-div-backbutton').click(function(){
+				// 	$('.pops').fadeIn(function(){
+				// 		$('.infopops').fadeOut();
+				// 		$('.vidpops').fadeOut();
+				// 	});
+				// })
+
+				callback();
+			};
+
+
+
+			//赖永钊注释console.log("nextitem: "+getNextGridItemIndex(0,'down',false));
+
+			$('#CD1Link').click(function(){ setPopupData(0,false,function(){});});
+			$('#CD2Link').click(function(){ setPopupData(1,false,function(){});});
+			$('#CD3Link').click(function(){ setPopupData(2,false,function(){});});
+			$('#CD4Link').click(function(){ setPopupData(3,false,function(){});});
+			$('#CD5Link').click(function(){ setPopupData(4,false,function(){});});
+			$('#CD6Link').click(function(){ setPopupData(5,false,function(){});});
+			$('#CD7Link').click(function(){ setPopupData(6,false,function(){});});
+			$('#CD8Link').click(function(){ setPopupData(7,false,function(){});});
+			$('#CD9Link').click(function(){ setPopupData(8,false,function(){});});
+			$('#CD10Link').click(function(){ setPopupData(9,false,function(){});});
+			$('#CD11Link').click(function(){ setPopupData(10,false,function(){});});
+			$('#CD12Link').click(function(){ setPopupData(11,false,function(){});});
+			$('#CD13Link').click(function(){ setPopupData(12,false,function(){});});
+			$('#CD14Link').click(function(){ setPopupData(13,false,function(){});});
+			$('#CD15Link').click(function(){ setPopupData(14,false,function(){});});
+			$('#CD16Link').click(function(){ setPopupData(15,false,function(){});});
+
+			$('#C1Link').click(function(){ setPopupData(0,true,function(){});});
+			$('#C2Link').click(function(){ setPopupData(1,true,function(){});});
+			$('#C3Link').click(function(){ setPopupData(2,true,function(){});});
+			$('#C4Link').click(function(){ setPopupData(3,true,function(){});});
+			$('#C5Link').click(function(){ setPopupData(4,true,function(){});});
+			$('#C6Link').click(function(){ setPopupData(5,true,function(){});});
+			$('#C7Link').click(function(){ setPopupData(6,true,function(){});});
+			$('#C8Link').click(function(){ setPopupData(7,true,function(){});});
+			$('#C9Link').click(function(){ setPopupData(8,true,function(){});});
+			$('#C10Link').click(function(){ setPopupData(9,true,function(){});});
+			$('#C11Link').click(function(){ setPopupData(10,true,function(){});});
+			$('#C12Link').click(function(){ setPopupData(11,true,function(){});});
+			$('#C13Link').click(function(){ setPopupData(12,true,function(){});});
+			$('#C14Link').click(function(){ setPopupData(13,true,function(){});});
+			$('#C15Link').click(function(){ setPopupData(14,true,function(){});});
+			$('#C16Link').click(function(){ setPopupData(15,true,function(){});});
+
+
+			$('.cls-pop').click(function(){
+				$('.infopops').fadeOut();
+				$('.pops').fadeOut();
+				lastScreen = 'main';
+			});
+
+			$('.open-info').click(function(){
+				//SET VIDEO HERE
+				$('.infopops').fadeIn(function(){
+					$('.pops').fadeOut();
+					$('.vidpops').fadeOut();
+				});
+			});
+
+			$('.quote-div-backbutton').click(function(){
+				$('.pops').fadeIn(function(){
+					$('.infopops').fadeOut();
+					$('.vidpops').fadeOut();
+					video.pause();
+				});
+			});
+
+			$(".info-desktop-cls").click(function(){
+				if(lastScreen=='vidpops'){
+					$('.vidpops').fadeIn(function(){
+						$('.infopops').fadeOut();
+						lastScreen = 'vidpops';
+					});
+				}else if(lastScreen=='pops'){
+					$('.pops').fadeIn(function(){
+						$('.infopops').fadeOut();
+						lastScreen = 'pops';
+					});
+				}
+			});
+
+			$(".mobile-info-cls").click(function(){
+				if(lastScreen=='vidpops'){
+					$('.vidpops').fadeIn(function(){
+						$('.infopops').fadeOut();
+						lastScreen = 'vidpops';
+					});
+				}else if(lastScreen=='pops'){
+					$('.pops').fadeIn(function(){
+						$('.infopops').fadeOut();
+						lastScreen = 'pops';
+					});
+				}else if(lastScreen==='main' || lastScreen==='none'){
+					$('.infopops').fadeOut();
+				}
+			});
+
+			var done = true;
+			// Setup Hover Listeners
+
+			var lastHoverInteraction = new Date();
+
+			//Hide everthing that needs to be hidden
+			$('#mobile-version').hide();
+			$('#desktop-version').hide();
+			for(var i = 0; i<clcs.length; i++){
+				$("#"+clcs[i]).hide();
+				$("#"+cdlcs[i]).hide();
+			}
+
+			var currentSelection = '';
+			var currentSelectionD = '';
+			var lastGridItemHovered = null;
+			var lastSwapTime = new Date();
+
+			var fadeGridItem = function(index,fadeTime,callback){
+				if(!cdlcAnimating){
+
+					$(currentSelection).fadeOut(fadeTime);
+					$(currentSelectionD).fadeOut(fadeTime, function(){
+
+					var wHeight = $(window).height();
+					// var y_n = (index+1)*wHeight;//((n/18.0)*100.0);
+					var y_n = (index+1)*6.25;//((n/18.0)*100.0);
+					//赖永钊注释console.log('y_n: '+y_n);
+					// $("#main-table").css("transition", "none");
+					$("#main-table").css("background-position", "50% "+y_n+"%");;
+					});
+					currentSelection = "#"+clcs[index];
+					currentSelectionD = "#"+cdlcs[index];
+					$(currentSelection).fadeIn(fadeTime);
+					$(currentSelectionD).fadeIn(fadeTime,function(){
+						cdlcAnimating = false;
+
+						callback();
+					});
+				}
+			};
+
+			var quickGridItemSwap = function(index, callback){
+				//赖永钊注释console.log('should be calling this');
+				// if(lastGridItemHovered != index && lastGridItemHovered){
+					$(currentSelection).hide();
+					$(currentSelectionD).hide();
+					currentSelection = "#"+clcs[index];
+					currentSelectionD = "#"+cdlcs[index];
+					$(currentSelection).show();
+					$(currentSelectionD).show();
+
+					var wHeight = $(window).height();
+					// var y_n = (index+1)*wHeight;//((n/18.0)*100.0);
+					var y_n = (index+1)*6.25;//((n/18.0)*100.0);
+					//赖永钊注释console.log('y_n: '+y_n);
+					// $("#main-table").css("transition", "none");
+					$("#main-table").css("background-position", "50% "+y_n+"%");;
+					lastSwapTime = new Date();
+					//PAUSE random fader for x time
+				// }
+			};
+
+			var fadeRandom = function(callback){
+				var currentTime = new Date();
+				var timeSinceLastSwap = currentTime - lastSwapTime;
+				// $("#main-table").css("transition", "none");
+				if(timeSinceLastSwap > 4000){
+					var randomIndex = Math.floor(Math.random() * (clcs.length));
+					lastGridItemHovered = randomIndex;
+					//赖永钊注释console.log('RandomIndex: '+randomIndex);
+					if("#"+clcs[randomIndex] == currentSelection){
+						//赖永钊注释console.log("step 1");
+						fadeRandom(callback);
+					}else{
+						if(currentSelection == ''){
+							//赖永钊注释console.log("step 2");
+							// $("#main-table").css("background-image", "url(images/mix.jpg)");
+							currentSelection = "#"+clcs[randomIndex];
+							currentSelectionD = "#"+cdlcs[randomIndex];
+							//$("#main-table").css("background-position", "50% 50%");
+
+							// $(currentSelection).fadeIn(1000);
+							// $(currentSelectionD).fadeIn(1000);
+							fadeGridItem(randomIndex,1000,function(){});
+						}else{
+							//赖永钊注释console.log("step 3");
+							fadeGridItem(randomIndex,1000,function(){});
+						}
+						previousIndex = randomIndex;
+						if(callback){
+							callback();
+						}
+					}
+				}
+			}
+
+			function initFadeRandomInterval(){
+				setInterval(function(){
+					fadeRandom();
+				},4000);
+			}
+
+
+			// var text = "Hi, wir sind #SEEK°.Ein Videomagazin, das kreativ Schaffende an verschiedene Orte in Berlin begleitet hat um zu zeigen, wo Design im Alltag stattfindet.";
+			//var text = "Hi";
+			var text = data.landingText;
+			var gsft = 50; //grid switch fade time
+			// $('.loadpops').fadeIn(function(){
+
+			// });
+			$('.main-table').fadeIn(function(){
+
+			});
+			$('#typedtext').coolType(text,{
+				typeSpeed: 100,
+				delayBeforeType: 1000,
+				delayAfterType: 0,
+				onComplete: function(){
+
+					$('#typedtext').fadeOut(1000, function(){
+						$('#landing').hide();
+						$(".mobile-version").fadeToggle(2000);
+						$(".desktop-version").fadeToggle(2000);
+
+						// Fade in borders
+						var div = $('.confession');
+						$({alpha:1}).animate({alpha:0}, {
+							duration: 1000,
+							step: function(){
+								div.css('border-color','rgba(0,0,0,'+this.alpha+')');
+							}, complete: function(){
+
+								$("td.n0").mouseenter(function(){quickGridItemSwap(0,function(){});});
+								$("td.n1").mouseenter(function(){quickGridItemSwap(1,function(){});});
+								$("td.n2").mouseenter(function(){quickGridItemSwap(2,function(){});});
+								$("td.n3").mouseenter(function(){quickGridItemSwap(3,function(){});});
+								$("td.n4").mouseenter(function(){quickGridItemSwap(4,function(){});});
+								$("td.n5").mouseenter(function(){quickGridItemSwap(5,function(){});});
+								$("td.n6").mouseenter(function(){quickGridItemSwap(6,function(){});});
+								$("td.n7").mouseenter(function(){quickGridItemSwap(7,function(){});});
+								$("td.n8").mouseenter(function(){quickGridItemSwap(8,function(){});});
+								$("td.n9").mouseenter(function(){quickGridItemSwap(9,function(){});});
+								$("td.n10").mouseenter(function(){quickGridItemSwap(10,function(){});});
+								$("td.n11").mouseenter(function(){quickGridItemSwap(11,function(){});});
+								$("td.n12").mouseenter(function(){quickGridItemSwap(12,function(){});});
+								$("td.n13").mouseenter(function(){quickGridItemSwap(13,function(){});});
+								$("td.n14").mouseenter(function(){quickGridItemSwap(14,function(){});});
+								$("td.n15").mouseenter(function(){quickGridItemSwap(15,function(){});});
+
+								initFadeRandomInterval();
+							}
+						});
+					});
+
+				}
+			});
+		};
+
+
+
+
+	});
+</script>
+</body>
+</html>
