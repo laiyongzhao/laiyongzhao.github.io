@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="780" viewBox="0 0 50 780">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 36px;
+        fill: #fff;
+        text-anchor: end;
+        font-family: U8;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text id="_52_26_52.0_N13_37_11.0_E" data-name="52°26’52.0“N13°37’11.0“E" class="cls-1" transform="translate(29.811 9.356) rotate(-90)"><tspan x="0">52°26’52.0“N13°37’11.0“E</tspan></text>
+</svg>
