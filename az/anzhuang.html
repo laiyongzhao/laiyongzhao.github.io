@@ -2,48 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>九牧1800个包安装区域查询</title>
+    <title>省市区三级联动</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
     <style>
-        select {
-            width: 200px;
-            padding: 5px;
-        }
-        .code-print{
-            box-sizing: border-box;
-            padding:10px;
-            margin-top:20px;
-            width:200px;
-            border:1px solid blue;
-        }
+    html, body, .page{
+        height: 100%; width: 100%;
+        overflow: hidden;
+    }
+    body{
+        margin: 0;
+        -webkit-user-select: none;
+        user-select: none;
+        -ms-touch-action: none;
+    }
+    body{background-color: #ebebeb; font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;}
+    a{text-decoration: none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+    h1,h2,h3,h4,h5,h6{margin: 0; font-weight: 400;}
+    ul,ol{margin: 0; list-style-type: none;}
+    .header, .footer, .content{position: absolute; left: 0; right: 0;}
+    .header{height: 48px; padding: 0 5px; background-color: #21292B; color: #fff; top: 0; z-index: 1;}
+    .header > h1{line-height: 48px; margin: 0 0 0 10px; font-size: 18px; float: left;}
+    .header > a{display: inline-block; width: 48px; height: 48px; background-size: 48px 144px; text-indent: -9em; overflow: hidden;}
+    .header > .icon-search, .header > .icon-add{float: right;}
+    .footer{height: 52px; border-top: 1px solid #dfdfdf; background-color: #fcfcfc; bottom: 0; z-index: 1;}
+    .footer > a{width: 25%; text-align: center; color: #999; float: left; font-size: 14px;}
+    .footer > a > i{display: block; height: 35px; margin-bottom: -3px; background-size: 35px 280px;}
+    .footer > .active{color: #45c018;}
+    .page{position: absolute; left: 0; top: 0;background:#FFF url(http://img.jomoo.com.cn/dev1/0/000/220/0000220225.fid) no-repeat top center;}
+    .content{top:0; bottom: 0; overflow: auto;}
+    .inner{width:100%;padding:210px 0 0;margin:0 auto;text-align:center;}
+    select {box-sizing:content-box;width: 261px;height:30px;line-height:30px;padding: 5px;border:1px solid #dcdcdc;border-radius:4px;}
+    .code-print{
+        width:296px;
+        height:120px;
+        padding-top:40px;
+        margin:40px auto 0;
+        background:#FFF;
+        border:1px solid #dcdcdc;
+        border-radius:4px;
+    }
+    .code-print p{font-weight:700;color:#64991a;;}
+    @media screen and (max-width: 848px) {
+        .page{background:#FFF url(http://img.jomoo.com.cn/dev1/0/000/220/0000220226.fid) no-repeat top center;background-size: cover;}
+        .inner{padding:28% 0 0;margin:0 auto;text-align:center;}
+        select{width:28%;}
+    }
     </style>
 </head>
 <body ng-app="areaApp">
-<div ng-controller="GetAreaCodeController">
-    <div>
-        <!--ng-options中key作为select的value绑定到ng-model（就是省市区的编号),value为省市区的名字显示在下拉列表中-->
-        <select ng-model="areaObj.addressProvince"
-                ng-change="areaObj.addressCity=undefined;areaObj.addressDistrict=undefined"
-                ng-options="key as value for (key,value) in DISTRICTS['100000']">
-            <option value="">省</option>
-        </select>
-        <select ng-model="areaObj.addressCity"
-                ng-change="areaObj.addressDistrict=undefined;"
-                ng-options="key as value for (key,value) in DISTRICTS[areaObj.addressProvince]">
-            <option value="">市</option>
-        </select>
-        <select class="form-control form-control-new"
-                ng-model="areaObj.addressDistrict"
-                ng-options="key as value for (key,value) in DISTRICTS[areaObj.addressCity]">
-            <option value="">区</option>
-        </select>
+    <div class="page" ng-controller="GetAreaCodeController">
+        <div class="content">
+            <div class="inner">
+                <!--ng-options中key作为select的value绑定到ng-model（就是省市区的编号),value为省市区的名字显示在下拉列表中-->
+                <select ng-model="areaObj.addressProvince"
+                        ng-change="areaObj.addressCity=undefined;areaObj.addressDistrict=undefined"
+                        ng-options="key as value for (key,value) in DISTRICTS['100000']">
+                    <option value="">省</option>
+                </select>
+                <select ng-model="areaObj.addressCity"
+                        ng-change="areaObj.addressDistrict=undefined;"
+                        ng-options="key as value for (key,value) in DISTRICTS[areaObj.addressProvince]">
+                    <option value="">市</option>
+                </select>
+                <select class="form-control form-control-new"
+                        ng-model="areaObj.addressDistrict"
+                        ng-options="key as value for (key,value) in DISTRICTS[areaObj.addressCity]">
+                    <option value="">区</option>
+                </select>
+                <div class="code-print">
+                    <div>该地区是否有安装支持:<p ng-if="areaObj.getAreaCode(areaObj.addressProvince, areaObj.addressCity, areaObj.addressDistrict)!=null">支持&nbsp;<img src="http://img.jomoo.com.cn/dev1/0/000/222/0000222520.fid"></p></div>
+                </div>
+                <p style="color:red;padding:0 10px">其它下拉无数据区域，暂不支持安装，可详询客服！</p>
+            </div>
+        </div>
     </div>
-    <div class="code-print">
-        <p>该地区是否有安装支持:<span ng-bind="areaObj.getAreaCode(areaObj.addressProvince, areaObj.addressCity, areaObj.addressDistrict)"></span></p>
-    </div>
-	    <div class="code-print">
-        <p style='color:red;'>有值默认有安装区域（显示优化中……）</p>
-    </div>
-</div>
 <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
 <script src="areaCodes.js"></script>
 </body>
