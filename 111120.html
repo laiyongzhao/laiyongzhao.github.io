@@ -240,7 +240,7 @@ a:hover .tips{visibility:visible;}
                 this.CSSX = 0;
                 this.CSSXout = 0;
 
-                this.button[0].classList.add('light');
+                this.button[this.options.current].classList.add('light');
 
                 this.current = this.options.current;
                 this.isAnim = false;
@@ -694,8 +694,8 @@ a:hover .tips{visibility:visible;}
   $(function() {
     //轮播
     $('#dg-container').carrousel({
-        current: 0,
-        autoplay: true,
+        current: 3,
+        autoplay: false,
         interval: 5000
     });
     $("#dg-container").hover(
