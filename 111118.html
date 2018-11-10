@@ -163,7 +163,7 @@ a:hover .tips{visibility:visible;}
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243354.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/Z1S300.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243355.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/A2181.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243381.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/36341-416-1B-1.htm" target="_blank"></a></li>
-      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243356.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/M31-41.htm" target="_blank"></a></li>
+      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243705.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/M31-41.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238297.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/LM103.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238298.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/02094-00-Z.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238299.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/939415-7Z1-1.htm" target="_blank"></a></li>
@@ -241,7 +241,7 @@ a:hover .tips{visibility:visible;}
                 this.CSSX = 0;
                 this.CSSXout = 0;
 
-                this.button[0].classList.add('light');
+                this.button[this.options.current].classList.add('light');
 
                 this.current = this.options.current;
                 this.isAnim = false;
@@ -695,8 +695,8 @@ a:hover .tips{visibility:visible;}
   $(function() {
     //轮播
     $('#dg-container').carrousel({
-        current: 0,
-        autoplay: true,
+        current: 1,
+        autoplay: false,
         interval: 5000
     });
     $("#dg-container").hover(
