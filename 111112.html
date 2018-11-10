@@ -5,8 +5,8 @@
 .tc{text-align:center;}
 .tc img{vertical-align:bottom;}
 .mb30{margin-bottom:30px;}
-.cd-out{width:1920px;height:285px;background:url(http://img.jomoo.com.cn/dev1/0/000/242/0000242338.fid) no-repeat;text-align:left;}
-#countdown{display:inline-block;padding:101px 0 0 562px;}
+.cd-out{width:1920px;height:285px;background:url(http://img.jomoo.com.cn/dev1/0/000/243/0000243319.fid) no-repeat;text-align:left;}
+#countdown{display:inline-block;padding:79px 0 0 562px;}
 .cd-out em{display:inline-block;font-style:normal;color:#FFF;font-size:95px;font-weight:700;font-family:'黑体';margin:0 60px 0 0;letter-spacing:27px}
 .yyyd{text-align:center;}
 .yyyd a{display:block;margin-top:65px}
@@ -25,8 +25,8 @@ a.soldout{cursor:default;}
 .soldout:after{content:"";position:absolute;display:block;width: 235px;height: 315px;background:url(http://img.jomoo.com.cn/dev1/0/000/191/0000191622.fid) no-repeat;margin: -314px 0 0 -1px;}
 .clearfix{ zoom:1 }
 .clearfix:after{ content:""; display:block; height:0; visibility:hidden; overflow: hidden; clear:both; }
-.w-banner{background:url(http://img.jomoo.com.cn/dev1/0/000/238/0000238496.fid) no-repeat top center;}
-.w-banner:after{content:"";display:block;width:1202px;height:148px;background:url(http://img.jomoo.com.cn/dev1/0/000/238/0000238343.fid) no-repeat;position:absolute;margin:-225px 0 0 381px;}
+.w-banner{background:url(http://img.jomoo.com.cn/dev1/0/000/243/0000243609.fid) no-repeat top center;}
+.w-banner:after{content:"";display:block;width:1202px;height:148px;background:url(http://img.jomoo.com.cn/dev1/0/000/243/0000243608.fid) no-repeat;position:absolute;margin:-225px 0 0 381px;}
 .banner11 {width:1202px;margin:0 auto;position: relative;height: 380px;padding: 50px;margin: 0 auto;text-align: center;}
 .dg-container {position: relative;width: 100%;height: 353px;z-index:1;}
 .dg-wrapper {width: 498px;height: 353px;margin: 0 auto;position: relative;transform-style: preserve-3d;perspective: 1000px;}
@@ -34,6 +34,7 @@ a.soldout{cursor:default;}
 .dg-wrapper a:first-child {z-index: 2;}
 .dg-wrapper a img {display: block;box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.20);border-radius: 4px;width: 100%;height: 353px;position:relative;}
 .dg-wrapper a .embg{display:block;width:100%;height:100%;background:url(http://img.jomoo.com.cn/dev1/0/000/241/0000241883.fid) no-repeat center center;position:absolute;top:0}
+.dg-wrapper a .over{background:url(http://img.jomoo.com.cn/dev1/0/000/243/0000243357.fid) no-repeat 16px 7px;}
 .dg-wrapper a.dg-transition {transition: all 0.4s ease-in-out;}
 .dg-wrapper a.dg-transition-fast {transition: all 0.2s ease-in-out;}
 .dg-wrapper em{font-style:normal;font-size:50px;font-family:Microsoft Yahei;display:block;width:50px;color:#FFF;font-weight:700;line-height:55px;position:absolute;top:30px;}
@@ -41,6 +42,7 @@ a.soldout{cursor:default;}
 .dg-wrapper .r20{right:80px;}
 .dg-wrapper .dg-center em{display:none;}
 .dg-wrapper .dg-center .embg{display:none;}
+.dg-wrapper .dg-center .over{display:block;}
 .dg-container nav {display: none;}
 .dg-container nav span:hover {opacity: 1;}
 .dg-container nav span.dg-next {background-position: top right;margin-left: 10px;}
@@ -74,8 +76,8 @@ a:hover .tips{visibility:visible;}
 </style>
 <div style="width:1200px;margin:0 auto;">
   <div style="width:1920px;margin-left:-360px;background:#000841 url(http://img.jomoo.com.cn/dev1/0/000/238/0000238289.fid) repeat;">
-    <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/242/0000242941.fid" width="1920" height="509" alt="">
-    <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/242/0000242942.fid" width="1920" height="483" alt="">
+    <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243343.fid" width="1920" height="577" alt="">
+    <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243344.fid" width="1920" height="437" alt="">
     <div class="cd-out"><div id="countdown"></div></div>
     <script type="text/javascript">
       var countDown = document.getElementById('countdown');
@@ -85,7 +87,7 @@ a:hover .tips{visibility:visible;}
       function getDate() {
         var oDate = new Date();//获取现在日期对象
         var oldTime = oDate.getTime();//现在距离1970年的毫秒数
-        var newDate = new Date('2018/11/10 22:00:00');//获取指定日期对象
+        var newDate = new Date('2018/11/11 23:59:59');//获取指定日期对象
         var newTime = newDate.getTime();//2018年距离1970年的毫秒数
         var second = Math.floor((newTime - oldTime) / 1000);//未来时间距离现在的秒数
         var day = Math.floor(second / 86400);//整数部分代表的是天；一天有24*60*60=86400秒 ；
@@ -109,8 +111,8 @@ a:hover .tips{visibility:visible;}
       <div class="banner11">
         <section id="dg-container" class="dg-container">
           <div class="dg-wrapper">
-              <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238341.fid" width="498" height="353"><span class="embg"><em class="l20">限时抢返现</em><em class="r20">限时抢返现</em></span></a>
-              <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238338.fid" width="498" height="353"><span class="embg"><em class="l20">满二抵百</em><em class="r20">满二抵百</em></span></a>
+              <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238341.fid" width="498" height="353"><span class="embg over"></span></a>
+              <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238338.fid" width="498" height="353"><span class="embg over"></span></a>
               <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238339.fid" width="498" height="353"><span class="embg"><em class="l20">套购抢返现</em><em class="r20">套购抢返现</em></span></a>
               <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238340.fid" width="498" height="353"><span class="embg"><em class="l20">冲刺赢返现</em><em class="r20">冲刺赢返现</em></span></a>
               <a href="javascript:;" link="javascript:;"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238342.fid" width="498" height="353"><span class="embg"><em class="l20">满减升级券</em><em class="r20">满减升级券</em></span></a>
@@ -133,13 +135,13 @@ a:hover .tips{visibility:visible;}
     </div>
     <div class="tc mb30">
       <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/239/0000239592.fid" width="902" height="19"  alt="" >
-      <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238334.fid" width="1221" height="285" alt="" usemap="#map01">
+      <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243347.fid" width="1221" height="285" alt="" usemap="#map01">
       <map name="map01">
-        <area shape="react" coords="405,56,547,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=0c6509c144fc471e869607a6d1552512" alt="" target="_blank">
-        <area shape="react" coords="565,56,706,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=4702f30f36de4d4a98e2626b1fd464a1" alt="" target="_blank">
-        <area shape="react" coords="722,56,864,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=727f8f615ccb46c7b70e8f674916cb09" alt="" target="_blank">
-        <area shape="react" coords="881,56,1023,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=effc70014fdc445e963c0b30618f4c1d" alt="" target="_blank">
-        <area shape="react" coords="1039,56,1181,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=a9224857f1de48fba3f16a08cedb8567" alt="" target="_blank">
+        <area shape="react" coords="405,60,547,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=4aa169b50fc94827908c50e8ff87aa44" alt="" target="_blank">
+        <area shape="react" coords="565,60,706,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=352b85543f534b26a2712862511d5151" alt="" target="_blank">
+        <area shape="react" coords="722,60,864,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=06cb26e8555f4e209d23d6c5bec3c64f" alt="" target="_blank">
+        <area shape="react" coords="881,60,1023,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=d478ca9cdf3e4e888a19ac435ec41757" alt="" target="_blank">
+        <area shape="react" coords="1039,60,1181,260" href="http://www.jomoo.com.cn:80/usercenter/coupondetails/getLinkCoupon?uuid=690b988276f04ed5bbab140534fd3290" alt="" target="_blank">
       </map>
     </div>
     <div class="tc mb30">
@@ -147,20 +149,21 @@ a:hover .tips{visibility:visible;}
       <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243169.fid" width="471" height="383" alt="">
       <a id="yjjc" href="javascript:;" style="display:inline-block;margin:30px 0"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243168.fid" width="1179" height="471" alt=""></a>
       <img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243170.fid" width="1237" height="294" alt="">
+      <br /><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243643.fid" width="422" height="22" alt="">
     </div>
     <a name="cw" id="cw"></a>
     <div class="tc mb30"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238677.fid" width="1206" height="244" alt=""></div>
-    <a href="http://www.jomoo.com.cn/item/36362-126-1B-1.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243163.fid" width="1920" height="560" alt=""></a>
-    <a href="http://www.jomoo.com.cn/item/36281-147-1B1-1.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243164.fid" width="1920" height="560" alt=""></a>
-    <a href="http://www.jomoo.com.cn/item/11173.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243165.fid" width="1920" height="581" alt=""></a>
-    <a href="http://www.jomoo.com.cn/item/A2234-112T-1.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243166.fid" width="1920" height="558" alt=""></a>
-    <a href="http://www.jomoo.com.cn/item/AZ-SCTCA2182-36281.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243167.fid" width="1920" height="581" alt=""><span class="tips" style="margin:-508px 0 0 750px;">花洒36281经典</span><span class="tips" style="margin:-308px 0 0 750px;">马桶11170大冲力</span><span class="tips" style="margin:-379px 0 0 350px;">浴室柜A2182实木</span></a>
+    <a href="http://www.jomoo.com.cn/item/36362-126-1B-1.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243348.fid" width="1920" height="560" alt=""></a>
+    <a href="http://www.jomoo.com.cn/item/36281-147-1B1-1.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243349.fid" width="1920" height="560" alt=""></a>
+    <a href="http://www.jomoo.com.cn/item/11173.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243350.fid" width="1920" height="581" alt=""></a>
+    <a href="http://www.jomoo.com.cn/item/A2234-112T-1.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243351.fid" width="1920" height="558" alt=""></a>
+    <a href="http://www.jomoo.com.cn/item/AZ-SCTCA2182-36281.htm" target="_blank"><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243352.fid" width="1920" height="581" alt=""><span class="tips" style="margin:-508px 0 0 750px;">花洒36281经典</span><span class="tips" style="margin:-308px 0 0 750px;">马桶11170大冲力</span><span class="tips" style="margin:-379px 0 0 350px;">浴室柜A2182实木</span></a>
     <ul class="bk11 clearfix">
-      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238292.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/11200.htm" target="_blank"></a></li>
-      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238293.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/Z1S300.htm" target="_blank"></a></li>
-      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238294.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/A2181.htm" target="_blank"></a></li>
-      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238295.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/36341-416-1B-1.htm" target="_blank"></a></li>
-      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238296.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/M31-41.htm" target="_blank"></a></li>
+      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243353.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/11200.htm" target="_blank"></a></li>
+      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243354.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/Z1S300.htm" target="_blank"></a></li>
+      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243355.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/A2181.htm" target="_blank"></a></li>
+      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243381.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/36341-416-1B-1.htm" target="_blank"></a></li>
+      <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/243/0000243356.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/M31-41.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238297.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/LM103.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238298.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/02094-00-Z.htm" target="_blank"></a></li>
       <li><img class="lazy" data-original="http://img.jomoo.com.cn/dev1/0/000/238/0000238299.fid" width="552" height="582" alt=""><a href="http://www.jomoo.com.cn/item/939415-7Z1-1.htm" target="_blank"></a></li>
@@ -182,7 +185,7 @@ a:hover .tips{visibility:visible;}
 
 <div class="fixed_left">
     <img style="margin:-30px 0 5px -8px;" src="http://img.jomoo.com.cn/dev1/0/000/238/0000238626.fid" alt="">
-    <a href="#blb" class="db">满减升级券</a>
+    <a href="#blb" class="db">满减入场券</a>
     <a href="#yjjc" class="db">抽奖赢免单</a>
     <a href="#cw" class="db">C位爆款区</a>
     <a href="http://www.jomoo.com.cn/front/201811112.htm#hs" target="_blank" class="db">花洒TOP榜</a>
