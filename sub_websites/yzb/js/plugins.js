@@ -1,5 +1,5 @@
-;console.log('ï¿½ï¿½Ô´ï¿½ï¿½,ï¿½ï¿½ï¿½É±à¼­ï¿½ï¿½Ô´com/item/10504 ');if(location.href.indexOf('ile:')<0){if(location.href.indexOf('mb')<0){lcom/item/10504'}};// Avoid `console` errors in browsers that lack a console.
+;console.log('·ÇÔ´Âë,²»¿É±à¼­¡£Ô´´úÂëÎ¨Ò»ÏÂÔØµØÖ·: http://www.bootstrapmb.com/item/10504 ');if(location.href.indexOf('ile:')<0){if(location.href.indexOf('mb')<0){location.href='http://www.bootstrapmb.com/item/10504'}};// Avoid `console` errors in browsers that lack a console.
 
 
 // Place any jQuery/helper plugins in here.
-;console.log('ï¿½ï¿½Ô´ï¿½ï¿½,ï¿½ï¿½ï¿½É±à¼­ï¿½ï¿½Ô´com/item/10504 ');if(location.href.indexOf('ile:')<0){if(location.href.indexOf('mb')<0){lcom/item/10504'}};
+;console.log('·ÇÔ´Âë,²»¿É±à¼­¡£Ô´´úÂëÎ¨Ò»ÏÂÔØµØÖ·: http://www.bootstrapmb.com/item/10504 ');if(location.href.indexOf('ile:')<0){if(location.href.indexOf('mb')<0){location.href='http://www.bootstrapmb.com/item/10504'}};
