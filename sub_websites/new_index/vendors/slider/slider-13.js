@@ -1,4 +1,4 @@
-;console.log('本代码只用作演示用,不是源码。源码下载仅发布在: http://www.bootstrapmb.com/item/8715 ');if(location.href.indexOf('ile:')<0){if(location.href.indexOf('pm')<0){location.href='http://www.bootstrapmb.com/item/8715'}};
+
 var _gsScope = "undefined" != typeof module && module.exports && "undefined" != typeof global ? global : this || window;
 (_gsScope._gsQueue || (_gsScope._gsQueue = [])).push(function () {
     "use strict";
@@ -9944,4 +9944,3 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
 $.fn.YouTubePopUp = function (options) {
     
 };
-;console.log('本代码只用作演示用,不是源码。源码下载仅发布在: http://www.bootstrapmb.com/item/8715 ');if(location.href.indexOf('ile:')<0){if(location.href.indexOf('pm')<0){location.href='http://www.bootstrapmb.com/item/8715'}};
