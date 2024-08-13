@@ -1,13 +1,1044 @@
-<!DOCTYPE html><html lang="en-US"><head>    <meta name="generator" content="Ghost 4.31" />
-<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=2' name='viewport'/>    <meta charset="utf-8"><link data-optimized="2" rel="stylesheet" href="https://hidokmeh.com/dokmehfiles/litespeed/css/c3cce66fc91303cb0fe3617b679186da.css?ver=f93dc" />    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <meta name="theme-color" content="#FFE600">    <meta name="msapplication-navbutton-color" content="#FFE600">    <meta name="apple-mobile-web-app-status-bar-style" content="#FFE600">    <meta name="description" content="Digital Creative Agency , making tailor-made interactive website and experiences"> <style>#language,footer,header,main.wrapper{opacity:0}#screenSaver{display:none}
+<!DOCTYPE html>
+<html lang="en-US">
 
-#firstLoading{position:fixed;width:100%;height:100vh;top:0;left:0;z-index:99999;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;outline:0}#firstLoading span{position:absolute;width:calc(100vw / 6);height:100%;display:block;background-color:#ffe600;-webkit-transition:.8s cubic-bezier(.52, .42, 0, 1);-o-transition:.8s cubic-bezier(.52, .42, 0, 1);transition:.8s cubic-bezier(.52, .42, 0, 1);-webkit-transform-origin:bottom;-ms-transform-origin:bottom;transform-origin:bottom;outline:0;right:0;bottom:0;border:10px solid #ffe600;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-transition-delay:0.6s;-o-transition-delay:0.6s;transition-delay:0.6s}#firstLoading span:nth-of-type(5){right:calc(100vw / 6)}#firstLoading span:nth-of-type(4){right:calc(200vw / 6)}#firstLoading span:nth-of-type(3){right:calc(300vw / 6)}#firstLoading span:nth-of-type(2){right:calc(400vw / 6)}#firstLoading span:first-of-type{right:calc(500vw / 6)}body.loaded #firstLoading{pointer-events:none}body.loaded #firstLoading span{-webkit-transform:scaleY(0);-ms-transform:scaleY(0);transform:scaleY(0)}body.loaded #firstLoading span.box1{-webkit-transition-delay:0.1s;-o-transition-delay:0.1s;transition-delay:0.1s}body.loaded #firstLoading span.box2{-webkit-transition-delay:0.2s;-o-transition-delay:0.2s;transition-delay:0.2s}body.loaded #firstLoading span.box3{-webkit-transition-delay:0.3s;-o-transition-delay:0.3s;transition-delay:0.3s}body.loaded #firstLoading span.box4{-webkit-transition-delay:0.4s;-o-transition-delay:0.4s;transition-delay:0.4s}body.loaded #firstLoading span.box5{-webkit-transition-delay:0.5s;-o-transition-delay:0.5s;transition-delay:0.5s}#firstLoading .super-mario-wrap-first{position:absolute;bottom:2rem;left:2rem;z-index:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}body.loaded #firstLoading .super-mario-wrap-first{-webkit-animation:1.2s linear forwards superMarioFirst;animation:1.2s linear forwards superMarioFirst}#firstLoading .super-mario-wrap-first img.mario{width:3rem;height:auto;aspect-ratio:auto 15/16}#firstLoading .super-mario-wrap-first img.mushroom{width:1.5rem;height:auto;margin-left:.7rem;aspect-ratio:auto 1/1}@-webkit-keyframes superMarioFirst{to{-webkit-transform:translateX(120vw);transform:translateX(120vw)}}@keyframes superMarioFirst{to{-webkit-transform:translateX(120vw);transform:translateX(120vw)}}@media only screen and (max-width:768px){#firstLoading .super-mario-wrap-first img.mario{width:2rem}#firstLoading .super-mario-wrap-first img.mushroom{width:1rem}#firstLoading .super-mario-wrap-first{left:1rem;bottom: 1rem}}@media only screen and (min-width:769px) and (max-width:1199px){.super-mario-wrap img.mario{width:2rem}.super-mario-wrap img.mushroom{width:1rem}}@media only screen and (min-width:1200px) and (max-width:1600px){#firstLoading .super-mario-wrap-first img.mario{width:2rem}#firstLoading .super-mario-wrap-first img.mushroom{width:1rem;margin-top:.5rem}}
+<head>
+    <meta name="generator" content="Ghost 4.31" />
+    <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=2'
+        name='viewport' />
+    <meta charset="utf-8">
+    <link data-optimized="2" rel="stylesheet"
+        href="dokmehfiles/litespeed/css/c3cce66fc91303cb0fe3617b679186da.css?ver=f93dc" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#FFE600">
+    <meta name="msapplication-navbutton-color" content="#FFE600">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFE600">
+    <meta name="description" content="Digital Creative Agency , making tailor-made interactive website and experiences">
+    <style>
+        #language,
+        footer,
+        header,
+        main.wrapper {
+            opacity: 0
+        }
 
-.router-overlay,.router-overlay-first{position:fixed;width:100%;height:100%;left:0;top:0;pointer-events:none;background-color:var(--yellow)}.router-overlay{z-index:10000;-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:left;-ms-transform-origin:left;transform-origin:left}.router-overlay-first{z-index:10001;-webkit-transform-origin:right;-ms-transform-origin:right;transform-origin:right;-webkit-transition:1s ease-in-out;-o-transition:1s ease-in-out;transition:1s ease-in-out}body.loaded .router-overlay-first{-webkit-transform:translateX(100vw);-ms-transform:translateX(100vw);transform:translateX(100vw)}@-webkit-keyframes superMario{to{-webkit-transform:translateX(100vw);transform:translateX(100vw)}}@keyframes superMario{to{-webkit-transform:translateX(100vw);transform:translateX(100vw)}}.super-mario-wrap{position:absolute;bottom:1.5rem;left:2rem}body.loaded .super-mario-wrap{-webkit-animation:2s ease-in-out forwards superMario;animation:2s ease-in-out forwards superMario}.super-mario-wrap img.mario{width:3rem;height:auto;aspect-ratio:auto 15/16}.super-mario-wrap img.mushroom{width:1.5rem;height:auto;aspect-ratio:auto 1/1}@media only screen and (max-width:768px){.super-mario-wrap img.mario{width:2rem}.super-mario-wrap img.mushroom{width:1rem}#language a img{width:2.25rem;height:.95rem}}@media only screen and (min-width:769px) and (max-width:1199px){.super-mario-wrap img.mario{width:2rem}.super-mario-wrap img.mushroom{width:1rem}}@media only screen and (min-width:1200px) and (max-width:1400px){.super-mario-wrap img.mario{width:2rem}.super-mario-wrap img.mushroom{width:1rem}}@media only screen and (min-width:1401px) and (max-width:1600px){.super-mario-wrap img.mario{width:2rem}.super-mario-wrap img.mushroom{width:1rem}}
+        #screenSaver {
+            display: none
+        }
 
-/* Target the canvas element inside the spline-viewer */
-spline-viewer::part(canvas) {
-    margin: auto;
-}</style> <script type="litespeed/javascript" data-src="https://www.googletagmanager.com/gtag/js?id=G-TFLQD5V8VN"></script> 
-<script type="litespeed/javascript">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-gtag('js',new Date());gtag('config','G-TFLQD5V8VN')</script> <script type="litespeed/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=!0;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-MNVT2QC')</script> <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' /><link rel="alternate" hreflang="en" href="https://hidokmeh.com" /><link rel="alternate" hreflang="fa" href="https://hidokmeh.com/fa/" /><link rel="alternate" hreflang="x-default" href="https://hidokmeh.com" />		<title>Home page</title>	<meta name="description" content="We are a creative team of designers, developers, and strategists, buildingelevatedwebsites in the heart of Tehran." />	<link rel="canonical" href="https://hidokmeh.com/" />	<meta property="og:locale" content="en_US" />	<meta property="og:type" content="website" />	<meta property="og:title" content="Dokmeh Digital Marketing Agency ✨" />	<meta property="og:description" content="✨ Where cutting-edge technology meets electrifying creativity, you&#039;ll find us. We&#039;re a team of passionate tech-wizards and creative geniuses, fueled by a shared vision: to push boundaries and build the future." />	<meta property="og:url" content="https://hidokmeh.com/" />	<meta property="og:site_name" content="Dokmeh Agency | The Most Creative Web &amp; design Agency in Iran" />	<meta property="article:modified_time" content="2024-07-27T06:31:57+00:00" />	<meta property="og:image" content="https://hidokmeh.com/media/2023/12/Icon01-3.gif" />	<meta property="og:image:width" content="300" />	<meta property="og:image:height" content="300" />	<meta property="og:image:type" content="image/gif" />	<meta name="twitter:card" content="summary_large_image" />	<meta name="twitter:title" content="Dokmeh Digital Marketing Agency ✨" />	<meta name="twitter:description" content="✨ Where cutting-edge technology meets electrifying creativity, you&#039;ll find us. We&#039;re a team of passionate tech-wizards and creative geniuses, fueled by a shared vision: to push boundaries and build the future." />	<meta name="twitter:image" content="https://hidokmeh.com/media/2023/12/dokmeh-x-thumb.jpg" /> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://hidokmeh.com/","url":"https://hidokmeh.com/","name":"Dokmeh | The Most Creative Web Design Agency in Tehran","isPartOf":{"@id":"https://hidokmeh.com/#website"},"about":{"@id":"https://hidokmeh.com/#organization"},"primaryImageOfPage":{"@id":"https://hidokmeh.com/#primaryimage"},"image":{"@id":"https://hidokmeh.com/#primaryimage"},"thumbnailUrl":"https://hidokmeh.com/media/2023/12/Icon01-3.gif","datePublished":"2022-08-03T09:33:57+00:00","dateModified":"2024-07-27T06:31:57+00:00","description":"We are a creative team of designers, developers, and strategists, buildingelevatedwebsites in the heart of Tehran.","breadcrumb":{"@id":"https://hidokmeh.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://hidokmeh.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://hidokmeh.com/#primaryimage","url":"https://hidokmeh.com/media/2023/12/Icon01-3.gif","contentUrl":"https://hidokmeh.com/media/2023/12/Icon01-3.gif","width":300,"height":300},{"@type":"BreadcrumbList","@id":"https://hidokmeh.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://hidokmeh.com/#website","url":"https://hidokmeh.com/","name":"Dokmeh Agency - Award winning digital agency","description":"Dokmeh Agency | The Most Creative Web &amp; design Agency in Iran","publisher":{"@id":"https://hidokmeh.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://hidokmeh.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://hidokmeh.com/#organization","name":"Dokmeh Agency - Award winning digital agency","url":"https://hidokmeh.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://hidokmeh.com/#/schema/logo/image/","url":"https://hidokmeh.com/media/2024/06/logo.svg","contentUrl":"https://hidokmeh.com/media/2024/06/logo.svg","width":1,"height":1,"caption":"Dokmeh Agency - Award winning digital agency"},"image":{"@id":"https://hidokmeh.com/#/schema/logo/image/"},"sameAs":["https://www.linkedin.com/company/dokmeh-agency/","https://www.instagram.com/dokmeh_studio/","https://www.behance.net/dokmehs","https://dribbble.com/dokmeh","https://www.sortlist.com/agency/dokmeh-studio"]}]}</script> <link rel="https://api.w.org/" href="https://hidokmeh.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://hidokmeh.com/wp-json/wp/v2/pages/62" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hidokmeh.com/xmlrpc.php?rsd" /><link rel='shortlink' href='https://hidokmeh.com/' /> <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Dokmeh Digital Marketing Agency","serviceType":"digital Marketing, Website Design","image":{"@type":"ImageObject","url":"https://hidokmeh.com/media/2023/12/Icon01-3.gif","width":300,"height":300},"provider":{"@type":"LocalBusiness","name":"Dokmeh Agency | The Most Creative Web &amp; design Agency in Iran","image":{"@type":"ImageObject","url":"https://hidokmeh.com/media/2022/08/183A1969.jpg","width":1700,"height":1133},"telephone":"+989196818114","priceRange":"5000$","address":{"@type":"PostalAddress","addressLocality":"IRAN","addressRegion":"Tehran","streetAddress":"Unit 14, No 250, Niavaran Street"}},"areaServed":{"@type":"State","name":"International"},"description":"From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses 💪, creating memorable brands and digital products. Our expertise grows with each year 😎, and our accumulated experience empowers us to develop products exactly as they should be."}</script> <style id="wpsp-style-frontend"></style> <link rel="icon" href="https://hidokmeh.com/media/2023/12/cropped-Dokmeh-Fav-1-32x32.jpg" sizes="32x32" /><link rel="icon" href="https://hidokmeh.com/media/2023/12/cropped-Dokmeh-Fav-1-192x192.jpg" sizes="192x192" /><link rel="apple-touch-icon" href="https://hidokmeh.com/media/2023/12/cropped-Dokmeh-Fav-1-180x180.jpg" /><meta name="msapplication-TileImage" content="https://hidokmeh.com/media/2023/12/cropped-Dokmeh-Fav-1-270x270.jpg" />  </head><body data-pageType="home"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNVT2QC"                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>    <div class="router-overlay-first">        <div class="super-mario-wrap">            <img class="mario" src="https://hidokmeh.com/dokmeh/assets/img/mario.webp" alt="Super Mario" data-no-lazy="1">            <img class="mushroom" src="https://hidokmeh.com/dokmeh/assets/img/mario-mushroom_rainbow.webp" alt="Mario Mushroom" data-no-lazy="1">        </div>    </div><header>    <div class="nav-social menu_items_list">        <div class="socialMedia">            <a target="_blank" href="https://dribbble.com/dokmeh" aria-label="Dokmeh Agency Dribble">                <span class="icon-Dribbble" aria-hidden="true"></span>            </a>            <a href="https://wa.me/+989196818114" aria-label="Dokmeh Agency whatsapp">                <span class="icon-Whats-app" aria-hidden="true"></span>            </a>            <a target="_blank" href="https://www.behance.net/dokmehs" aria-label="Dokmeh Agency Behance">                <span class="icon-Behance" aria-hidden="true"></span>            </a>            <a target="_blank" href="https://www.linkedin.com/company/dokmeh-agency/" aria-label="Dokmeh Agency linkedin">                <span class="icon-Linkedin" aria-hidden="true"></span>            </a>            <a target="_blank" href="https://www.youtube.com/channel/UCMDh3nXt8kto3o-Cg1I17fA"               aria-label="Dokmeh Agency Youtube">                <span class="icon-Youtube" aria-hidden="true"></span>            </a>            <a target="_blank" href="https://instagram.com/dokmeh_agency" aria-label="Dokmeh Agency Instagram">                <span class="icon-Instagram" aria-hidden="true"></span>            </a>        </div>        <nav>            <a href="https://hidokmeh.com/projects/"               class="menu_item_list hover-effect menuItem works">Projects</a>            <a href="https://hidokmeh.com/about-us/"               class="menu_item_list hover-effect about">About us</a>            <a href="https://hidokmeh.com/contact-us/"               class="menu_item_list hover-effect contact">Contact us</a>        </nav>    </div></header><a href="https://hidokmeh.com/" id="identity" class="identity menuItem" aria-label="Dokmeh agency landing page">    <img fetchpriority="high" src="https://hidokmeh.com/media/2024/06/logo.svg" alt="Dokmeh Agency" data-no-lazy="1"></a><div id="language">                    <div class="mobile-language">            <a role="link" aria-label="View another language" href="https://hidokmeh.com/fa/"               class="menuItem"><img src="https://hidokmeh.com/dokmeh/assets/img/persian.svg" alt="persian lang" data-no-lazy="1"></a>        </div>    </div><div class='mwai-chatbot-container' data-params='{&quot;aiName&quot;:&quot;DKM GPT&quot;,&quot;userName&quot;:&quot;User: &quot;,&quot;guestName&quot;:&quot;Guest:&quot;,&quot;textSend&quot;:&quot;Send&quot;,&quot;textClear&quot;:&quot;Clear&quot;,&quot;textInputPlaceholder&quot;:&quot;Just Ask me...&quot;,&quot;textInputMaxLength&quot;:512,&quot;textCompliance&quot;:&quot;Dokmeh&#039;s AI Assistant Based on Chat GPT-4o&quot;,&quot;startSentence&quot;:&quot;Hi! How can I help you?&quot;,&quot;localMemory&quot;:1,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;window&quot;:1,&quot;icon&quot;:&quot;https:\/\/hidokmeh.com\/media\/2024\/06\/openai-chatgpt-logo-icon-free-png_40.webp&quot;,&quot;iconText&quot;:&quot;&quot;,&quot;iconTextDelay&quot;:1,&quot;iconAlt&quot;:&quot;AI Chatbot Avatar&quot;,&quot;iconPosition&quot;:&quot;bottom-right&quot;,&quot;iconBubble&quot;:&quot;&quot;,&quot;fullscreen&quot;:1,&quot;copyButton&quot;:&quot;&quot;}' data-system='{&quot;botId&quot;:&quot;default&quot;,&quot;customId&quot;:null,&quot;userData&quot;:null,&quot;sessionId&quot;:&quot;N\/A&quot;,&quot;restNonce&quot;:null,&quot;contextId&quot;:62,&quot;pluginUrl&quot;:&quot;https:\/\/hidokmeh.com\/engine\/&quot;,&quot;restUrl&quot;:&quot;https:\/\/hidokmeh.com\/wp-json&quot;,&quot;stream&quot;:false,&quot;debugMode&quot;:false,&quot;speech_recognition&quot;:true,&quot;speech_synthesis&quot;:false,&quot;typewriter&quot;:false,&quot;virtual_keyboard_fix&quot;:false,&quot;actions&quot;:[],&quot;blocks&quot;:[],&quot;shortcuts&quot;:[]}' data-theme='{&quot;type&quot;:&quot;internal&quot;,&quot;name&quot;:&quot;ChatGPT&quot;,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;settings&quot;:[],&quot;style&quot;:&quot;&quot;}'></div><div id="screenSaver"><img src="https://hidokmeh.com/media/2024/06/logo.svg" alt="Dokmeh agency logo" data-no-lazy="1"></div>    <main class="wrapper homeWrapper">        <div id="aboutVideoContainer"></div>        <section class="heroSectionContainer centeredIcon">            <div class="video-overlay" style="width: 100%;height: 100vh;overflow: hidden">                <div class="heroCloseIcon">                    <img src="https://hidokmeh.com/dokmeh/assets/img/herocloseicon.webp" alt="">                </div>                                <video controlsList="nodownload" id="heroVideoDesktop" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2024/07/DKM-BG-HERO-Desktop.jpg" muted playsinline class="lazyLoadVideo">                    <source data-src="https://hidokmeh.com/media/2024/07/DOKMEH-Video-Intro_Desktop_loop.mp4" type="video/mp4" data-fullVideo-src="https://hidokmeh.com/media/2024/07/DOKMEH-Video-Intro_web.mp4">                </video>                <video controlsList="nodownload" id="fullVideoDesktop" poster="" playsinline class="lazyLoadVideo" controls>                    <source data-src="" type="video/mp4">                </video>            </div>                        </div>            <div class="heroPlayIcon">                <div class="text one">                                            <span class="scrumble">We Don’t Just <br>Create <br>Good Shits!</span>                                    </div>                <div class="iconContainer">                    <div class="outerObject">                        <img src="https://hidokmeh.com/dokmeh/assets/img/heroplayicon-out.svg" alt="hero Play Icon outer">                    </div>                    <div class="innerObject">                        <img src="https://hidokmeh.com/dokmeh/assets/img/heroplayicon-center.webp" alt="hero Play Icon inner">                        <img src="https://hidokmeh.com/dokmeh/assets/img/heroplayicon-yellow-center.webp" alt="yellow hero Play Icon inner">                    </div>                </div>                <div class="text two">                                            <span class="scrumble">We Level-Up</span>                        <span class="scrumble">We Develop</span>                        <span class="scrumble">We Affect</span>                                    </div>            </div>            <div class="heroSectionInfoButton withIcon">                <div class="heroSectionInfo">                    <div class="heroSectionInfo_text">                                                    <p class="title__one">Award winning ✨</p>                            <h1>Dokmeh Creative Agency</h1>                            <p class="title__two">making tailor-made interactive website and experiences</p>                                                                        </div>                    <div class="award-subscript">                        <div class="awardBoxes">                            <a aria-label="Dokmeh's profile page on the awwwards" href="https://www.awwwards.com/dokmeh/" class="awardBox">                                <span class="number">05</span>                                <div class="logo"><img src="https://hidokmeh.com/media/2023/12/awwward-logo.svg" alt="Awwwards logo"></div>                            </a>                            <a aria-label="VDokmeh's profile page on the css design awards" href="https://www.cssdesignawards.com/sites/dokmeh-agency/41984/" class="awardBox">                                <span class="number">25</span>                                <div class="logo"><img src="https://hidokmeh.com/media/2024/08/css-design-awards.svg" alt="Css design awards logo"></div>                            </a>                        </div>                    </div>                </div>            </div>        </section>        <section class="clientsContainer">            <div class="text-marquee">                <div class="text-single rollingText text">                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/helger-logo-3.svg" alt="Helger"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/nextoffice-logo-1.svg" alt="Next Office"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/erdas-logo-1.svg" alt="Merdas Chocolate"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/night-king-1-1.svg" alt="Night king Energy"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/image-32.webp" alt="Contemporary Architects Association of Iran"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/nazari-logo-1.svg" alt="Nazari Industries Group"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/image-38.webp" alt="Eigal"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/royal-logo-1-2.svg" alt="Royal Jeans"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/tarh-aval-1-1.svg" alt="Tarhe Aval"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/zandigan-logo-1-1.svg" alt="Zandigan"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/paadiran-logo-1.svg" alt="Paadiran office furniture"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/sohankhodkar-logo-1.svg" alt="Sohan Khodkar"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/rougine-darou-logo-1.svg" alt="Rougine Darou"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/negin-motor-1.svg" alt="negin motors"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/badr-logo-1-1.svg" alt="Badr food"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/rabee-logo-2-1.svg" alt="Rabee food"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/darman-ara-logo-1-1.svg" alt="Darman Ara"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2022/08/fma-logo-1.png" alt="Fluid Motion Architect"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/goldis-tile-logo-1.svg" alt="Goldis Tile"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2022/08/chilai-logo-1.png" alt="Chilia Group"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/helger-logo-3.svg" alt="Helger"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/nextoffice-logo-1.svg" alt="Next Office"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/erdas-logo-1.svg" alt="Merdas Chocolate"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/night-king-1-1.svg" alt="Night king Energy"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/image-32.webp" alt="Contemporary Architects Association of Iran"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/nazari-logo-1.svg" alt="Nazari Industries Group"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/image-38.webp" alt="Eigal"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/royal-logo-1-2.svg" alt="Royal Jeans"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/tarh-aval-1-1.svg" alt="Tarhe Aval"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/zandigan-logo-1-1.svg" alt="Zandigan"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/paadiran-logo-1.svg" alt="Paadiran office furniture"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/sohankhodkar-logo-1.svg" alt="Sohan Khodkar"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/rougine-darou-logo-1.svg" alt="Rougine Darou"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/negin-motor-1.svg" alt="negin motors"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/badr-logo-1-1.svg" alt="Badr food"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/rabee-logo-2-1.svg" alt="Rabee food"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/darman-ara-logo-1-1.svg" alt="Darman Ara"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2022/08/fma-logo-1.png" alt="Fluid Motion Architect"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/goldis-tile-logo-1.svg" alt="Goldis Tile"></div>                    <div class="text js-text"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2022/08/chilai-logo-1.png" alt="Chilia Group"></div>                </div>            </div>        </section>                    <section class="featureProjectContainer paddingX">                <a href="https://hidokmeh.com/projects/dorr-architects/" class="featureProjectMediaWrap menuItem" aria-label="Read more about Dorr Architecture Group">                                            <video id="heroVideo" controlsList="nodownload" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2024/06/002-1-1024x576.jpg" muted playsinline class="lazyLoadVideo">                            <source data-src="https://hidokmeh.com/media/2024/06/dorr-architects-website-by-dokmeh.mov" type="video/mp4">                        </video id="heroVideo">                                    </a>                <a href="https://hidokmeh.com/projects/dorr-architects/" class="featureProjectInfoWrapper menuItem"                   aria-label="Read more about Dorr Architecture Group">                    <div class="blob-wrap">                        <div class="blob blobOne"></div>                        <div class="blob blobTwo"></div>                    </div>                    <div class="featureProjectDescription">                        <p>Dorr Architecture Studio Is A Forward-Thinking Architectural Firm That Pushes The Boundaries Of Design To Create Exceptional Spaces That Elevate The Human Experience.</p>                    </div>                    <div class="featureProjectTitle">                        <h2>Dorr Architecture Group</h2>                                                    <div class="year-type-wrap">                                <span>Website-2024</span>                            </div>                                            </div>                </a>            </section>                <section class="worksContainer">            <div class="projectsContainer paddingX">                                        <a href="#/" class="projectWrap deactive-link" aria-label="Read more about Negin Motors">                            <div class="projectMedia videoMedia">                                <div class="mainImage">                                                                            <video controlsList="nodownload" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2024/03/negin-motor-14-1024x614.jpg" muted playsinline class="lazyLoadVideo">                                            <source data-src="https://hidokmeh.com/media/2024/03/NEGIN-H-1.mp4" type="video/mp4">                                        </video>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/03/negin-motor-14-150x90.jpg" alt="Negin Motors" >                                </div>                                                                    <div class="coming-soon">                                        <p>✨Coming Soon✨</p>                                    </div>                                                            </div>                            <div class="projectInfo">                                <h2>Negin Motors</h2>                                <p>Website</p>                            </div>                        </a>                                                <a href="https://hidokmeh.com/projects/gillamoon-museums-identity-design/" class="projectWrap menuItem" aria-label="Read more about Gillamoon Museum’s Identity Design">                            <div class="projectMedia videoMedia">                                <div class="mainImage">                                                                            <video controlsList="nodownload" autoplay loop preload="auto" poster="" muted playsinline class="lazyLoadVideo">                                            <source data-src="https://hidokmeh.com/media/2024/06/Gilamoon.mp4" type="video/mp4">                                        </video>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="" alt="Gillamoon Museum’s Identity Design" >                                </div>                                                            </div>                            <div class="projectInfo">                                <h2>Gillamoon Museum’s Identity Design</h2>                                <p></p>                            </div>                        </a>                                                <a href="#/" class="projectWrap deactive-link" aria-label="Read more about Nexa group">                            <div class="projectMedia videoMedia">                                <div class="mainImage">                                                                            <video controlsList="nodownload" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2024/07/The-Glass-Cube@2-2560x895-1-1024x358.jpg" muted playsinline class="lazyLoadVideo">                                            <source data-src="https://hidokmeh.com/media/2024/07/Screen-Recording-2024-07-07-at-8.59.50 PM.mov" type="video/mp4">                                        </video>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/07/The-Glass-Cube@2-2560x895-1-150x52.jpg" alt="Nexa group" >                                </div>                                                                    <div class="coming-soon">                                        <p>✨Coming Soon✨</p>                                    </div>                                                            </div>                            <div class="projectInfo">                                <h2>Nexa group</h2>                                <p></p>                            </div>                        </a>                                                <a href="https://hidokmeh.com/projects/red-stories-of-experiment/" class="projectWrap menuItem" aria-label="Read more about RED, STORIES OF EXPERIMENT">                            <div class="projectMedia ">                                <div class="mainImage">                                                                            <picture>                                            <source media="(min-width: 1200px)" data-srcset="https://hidokmeh.com/media/2023/12/ghermez-1024x640.jpg">                                            <source media="(min-width: 1024px)" data-srcset="https://hidokmeh.com/media/2023/12/ghermez-600x375.jpg">                                            <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2023/12/ghermez-600x375.jpg" alt="RED, STORIES OF EXPERIMENT" >                                        </picture>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2023/12/ghermez-150x94.jpg" alt="RED, STORIES OF EXPERIMENT" >                                </div>                                                            </div>                            <div class="projectInfo">                                <h2>RED, STORIES OF EXPERIMENT</h2>                                <p>2023  - Website</p>                            </div>                        </a>                                                <a href="https://hidokmeh.com/projects/nextoffice-architecture-studio/" class="projectWrap menuItem" aria-label="Read more about Nextoffice &#8211; Alireza Taghaboni">                            <div class="projectMedia videoMedia">                                <div class="mainImage">                                                                            <video controlsList="nodownload" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2024/06/nextoffice-home-laptop-1024x682.jpg" muted playsinline class="lazyLoadVideo">                                            <source data-src="https://hidokmeh.com/media/2024/06/nextoffice-mouckup.mp4" type="video/mp4">                                        </video>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/06/nextoffice-home-laptop-150x100.jpg" alt="Nextoffice &#8211; Alireza Taghaboni" >                                </div>                                                            </div>                            <div class="projectInfo">                                <h2>Nextoffice &#8211; Alireza Taghaboni</h2>                                <p>2017 - Website</p>                            </div>                        </a>                                                <a href="https://hidokmeh.com/projects/golshaah/" class="projectWrap menuItem" aria-label="Read more about Golshaah">                            <div class="projectMedia videoMedia">                                <div class="mainImage">                                                                            <video controlsList="nodownload" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2022/09/golshah-1024x640.jpg" muted playsinline class="lazyLoadVideo">                                            <source data-src="https://hidokmeh.com/media/2022/09/CA2CCC2E-DD2A-4BFE-B743-13176384DBCF_1.mp4" type="video/mp4">                                        </video>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2022/09/golshah-150x94.jpg" alt="Golshaah" >                                </div>                                                            </div>                            <div class="projectInfo">                                <h2>Golshaah</h2>                                <p>2020 - Website</p>                            </div>                        </a>                                                <a href="https://hidokmeh.com/projects/mivinna/" class="projectWrap menuItem" aria-label="Read more about Mivinna">                            <div class="projectMedia videoMedia">                                <div class="mainImage">                                                                            <video controlsList="nodownload" autoplay loop preload="auto" poster="https://hidokmeh.com/media/2024/03/5a905587b47d9Citrix-Thumb-1-1024x575.jpg" muted playsinline class="lazyLoadVideo">                                            <source data-src="https://hidokmeh.com/media/2024/04/mivina-web-01-dokmeh.mp4" type="video/mp4">                                        </video>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/03/5a905587b47d9Citrix-Thumb-1-150x84.jpg" alt="Mivinna" >                                </div>                                                            </div>                            <div class="projectInfo">                                <h2>Mivinna</h2>                                <p>Website</p>                            </div>                        </a>                                                <a href="https://hidokmeh.com/projects/modern-and-futuristic-landing-page-design-for-arenpro-com/" class="projectWrap menuItem" aria-label="Read more about Modern and Futuristic Landing Page Design for arenpro.com">                            <div class="projectMedia ">                                <div class="mainImage">                                                                            <picture>                                            <source media="(min-width: 1200px)" data-srcset="https://hidokmeh.com/media/2024/07/02-Laptop-Mockup-1024x683.jpg">                                            <source media="(min-width: 1024px)" data-srcset="https://hidokmeh.com/media/2024/07/02-Laptop-Mockup-600x400.jpg">                                            <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/07/02-Laptop-Mockup-600x400.jpg" alt="Modern and Futuristic Landing Page Design for arenpro.com" >                                        </picture>                                                                    </div>                                <div class="hoverImage">                                    <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/07/02-Laptop-Mockup-150x100.jpg" alt="Modern and Futuristic Landing Page Design for arenpro.com" >                                </div>                                                            </div>                            <div class="projectInfo">                                <h2>Modern and Futuristic Landing Page Design for arenpro.com</h2>                                <p>Ui Design - 2023</p>                            </div>                        </a>                                    </div>            <div class="allProjectWrap">                <div class="allProjectBack">                    <img id="greenStar" class="lazyload blur-up" data-src="https://hidokmeh.com/dokmeh/assets/img/star-green.svg" alt="star"></div>                <a href="https://hidokmeh.com/projects/" class="allProjectLink menuItem" aria-label="See the projects page">All Projects 🍑 🤏🏽</a>            </div>        </section>        <section class="aboutContainerMedia paddingX">            <picture>                <source media="(min-width: 1200px)" data-srcset="https://hidokmeh.com/media/2024/08/Poster-02.jpg">                 <source media="(min-width: 1024px)" data-srcset="https://hidokmeh.com/media/2024/08/Poster-tablet-02.jpg">                 <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/08/Poster-mobile-02.jpg" alt="Dokmeh Awards" >             </picture>        </section>        <section class="aboutFeaturesContainer paddingX">            <div class="featureWrap">                                    <span class="title">Over</span>                                <div class="features-item">                    <p>40+</p>                    <div class="features-item-media">                        <a aria-label="Dokmeh Agency CSS Design Awards" target="_blank" href="https://www.cssdesignawards.com/sites/dokmeh-agency/41984/"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2023/12/c-d-a.svg" alt="css design awards" fetchpriority="low"></a>                        <a aria-label="Dokmeh Agency Awwwwards" target="_blank" href="https://www.awwwards.com/dokmeh/"><img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2023/12/awwards.svg" fetchpriority="low" alt="Awwwwards"></a>                    </div>                </div>                                    <span class="title">Awards!</span>                            </div>            <div class="featureWrap">                                    <span class="title">Over the course of </span>                    <div class="features-item">                        <p>144</p>                    </div>                    <span class="title">Months in Business</span>                            </div>            <div class="featureWrap">                                    <span class="title">Over</span>                    <div class="features-item">                        <p>300+</p>                    </div>                    <span class="title">Website Launched</span>                            </div>            <div class="featureWrap">                                    <span class="title">Over the course of </span>                    <div class="features-item">                        <p>25</p>                    </div>                    <span class="title">Party with Cool Friend & Clients</span>                            </div>        </section>        <section class="servicesContainer">                            <h2 class="title_item">Services</h2>                        <div class="servicesWrapper">                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">Brand Designing</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">UI / UX</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">Web Development</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">SEO</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">Digital Marketing</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">Strategy & Creative Idea</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">Packaging & Logo Design</span>                </div>                <div class="list__item">                    <span class="blankSpace"></span>                    <span class="number"></span>                    <span class="list__item-col hover-effect hover-effect--bg">MVP’s</span>                </div>            </div>        </section>        <section class="homeBannerContainer">            <picture>                <source media="(min-width: 1200px)" data-srcset="https://hidokmeh.com/media/2024/08/Wall-Poster-Mockup.webp">                 <source media="(min-width: 1024px)" data-srcset="https://hidokmeh.com/media/2024/08/Wall-Poster-Mockup-tablet.webp">                 <img class="lazyload blur-up" data-src="https://hidokmeh.com/media/2024/08/Wall-Poster-Mockup-mobile.webp" alt="poster dokmeh on street" >             </picture>        </section>        <section class="aboutHeroSection" id="aboutHeroSection">            <div class="aboutHeroSectionWrap">                <div class="shuffleMediaWrapper">                    <div class="shuffleMediaItems">                        <canvas id="shuffleMedia">                    </div>                </div>                <div class="heroSectionAboutTitle">                                            <h1>We Don’t Just<br><span class="boldItalic">Create</span><br><span class="italic">Good Shits!</span></h1>                                    </div>            </div>            <div class="heroSectionSlogan">                <p>We Elevate</p>                <p>We Develop</p>                <p><span>we</span>Affect</p>            </div>        </section>    </main>    <footer>        <span class="mail" style="display: none"> <a class="mail" href="mailto:hi@hidokmeh.com"> Hi@ <br> hidokmeh <br>.com</a></span>        <div class="info paddingX">            <div class="dokmeh">                <a href="https://hidokmeh.com/" class="logo menuItem" aria-label="Dokmeh Agency"><img fetchpriority="low" src="https://hidokmeh.com/dokmeh/assets/img/logo-footer.svg" alt="Dokmeh Agency"></a>                <span class="right">© 2024 All Rights Reserved</span>            </div>            <div class="contact">                <div class="socialMedia">                    <a target="_blank" href="https://dribbble.com/dokmeh" aria-label="Dokmeh Agency Dribble">                        <span class="icon-Dribbble" aria-hidden="true"></span>                    </a>                    <a href="https://wa.me/+989196818114" aria-label="Dokmeh Agency whatsapp">                        <span class="icon-Whats-app" aria-hidden="true"></span>                    </a>                    <a target="_blank" href="https://www.behance.net/dokmehs" aria-label="Dokmeh Agency Behance">                        <span class="icon-Behance" aria-hidden="true"></span>                    </a>                    <a target="_blank" href="https://www.linkedin.com/company/dokmeh-agency/" aria-label="Dokmeh Agency linkedin">                        <span class="icon-Linkedin" aria-hidden="true"></span>                    </a>                    <a target="_blank" href="https://www.youtube.com/channel/UCMDh3nXt8kto3o-Cg1I17fA" aria-label="Dokmeh Agency Youtube">                        <span class="icon-Youtube" aria-hidden="true"></span>                    </a>                    <a target="_blank" href="https://instagram.com/dokmeh_agency" aria-label="Dokmeh Agency Instagram">                        <span class="icon-Instagram" aria-hidden="true"></span>                    </a>                </div>                <a target="_blank" href="mailto:Hi@HiDokmeh.com" class="email">Hi@HiDokmeh.com</a>                <a target="_blank" href="tel:00982126858636" class="phone">+98 21 26 858 636</a>                <a target="_blank" href="https://www.google.com/maps/dir/?api=1&amp;destination=35.81212479422347,51.44972344244073" class="address" target="_blank">Unit 14, No. 250, Niavaran St.</a>            </div>        </div>    </footer><div class="router-overlay"></div> <script defer src="https://hidokmeh.com/dokmeh/assets/js/nodelay.js" id="nodelay_js"></script> <script defer src="https://hidokmeh.com/dokmeh/assets/js/split-type.min.js"></script> <script defer type="module" src="https://hidokmeh.com/dokmeh/assets/js/homeIndex.js?v=1.0.1"></script> <script type="text/javascript" id="wpsp-script-frontend"></script> <script data-optimized="1" type="litespeed/javascript" data-src="https://hidokmeh.com/dokmehfiles/litespeed/js/f54d64ca0fb3f7fcd2cde3f360889662.js?ver=f93dc"></script><script>const litespeed_ui_events=["mouseover","click","keydown","wheel","touchmove","touchstart"];var urlCreator=window.URL||window.webkitURL;function litespeed_load_delayed_js_force(){console.log("[LiteSpeed] Start Load JS Delayed"),litespeed_ui_events.forEach(e=>{window.removeEventListener(e,litespeed_load_delayed_js_force,{passive:!0})}),document.querySelectorAll("iframe[data-litespeed-src]").forEach(e=>{e.setAttribute("src",e.getAttribute("data-litespeed-src"))}),"loading"==document.readyState?window.addEventListener("DOMContentLoaded",litespeed_load_delayed_js):litespeed_load_delayed_js()}litespeed_ui_events.forEach(e=>{window.addEventListener(e,litespeed_load_delayed_js_force,{passive:!0})});async function litespeed_load_delayed_js(){let t=[];for(var d in document.querySelectorAll('script[type="litespeed/javascript"]').forEach(e=>{t.push(e)}),t)await new Promise(e=>litespeed_load_one(t[d],e));document.dispatchEvent(new Event("DOMContentLiteSpeedLoaded")),window.dispatchEvent(new Event("DOMContentLiteSpeedLoaded"))}function litespeed_load_one(t,e){console.log("[LiteSpeed] Load ",t);var d=document.createElement("script");d.addEventListener("load",e),d.addEventListener("error",e),t.getAttributeNames().forEach(e=>{"type"!=e&&d.setAttribute("data-src"==e?"src":e,t.getAttribute(e))});let a=!(d.type="text/javascript");!d.src&&t.textContent&&(d.src=litespeed_inline2src(t.textContent),a=!0),t.after(d),t.remove(),a&&e()}function litespeed_inline2src(t){try{var d=urlCreator.createObjectURL(new Blob([t.replace(/^(?:)?$/gm,"$1")],{type:"text/javascript"}))}catch(e){d="data:text/javascript;base64,"+btoa(t.replace(/^(?:)?$/gm,"$1"))}return d}</script></body></html>
+        #firstLoading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            outline: 0
+        }
+
+        #firstLoading span {
+            position: absolute;
+            width: calc(100vw / 6);
+            height: 100%;
+            display: block;
+            background-color: #ffe600;
+            -webkit-transition: .8s cubic-bezier(.52, .42, 0, 1);
+            -o-transition: .8s cubic-bezier(.52, .42, 0, 1);
+            transition: .8s cubic-bezier(.52, .42, 0, 1);
+            -webkit-transform-origin: bottom;
+            -ms-transform-origin: bottom;
+            transform-origin: bottom;
+            outline: 0;
+            right: 0;
+            bottom: 0;
+            border: 10px solid #ffe600;
+            -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+            -webkit-transition-delay: 0.6s;
+            -o-transition-delay: 0.6s;
+            transition-delay: 0.6s
+        }
+
+        #firstLoading span:nth-of-type(5) {
+            right: calc(100vw / 6)
+        }
+
+        #firstLoading span:nth-of-type(4) {
+            right: calc(200vw / 6)
+        }
+
+        #firstLoading span:nth-of-type(3) {
+            right: calc(300vw / 6)
+        }
+
+        #firstLoading span:nth-of-type(2) {
+            right: calc(400vw / 6)
+        }
+
+        #firstLoading span:first-of-type {
+            right: calc(500vw / 6)
+        }
+
+        body.loaded #firstLoading {
+            pointer-events: none
+        }
+
+        body.loaded #firstLoading span {
+            -webkit-transform: scaleY(0);
+            -ms-transform: scaleY(0);
+            transform: scaleY(0)
+        }
+
+        body.loaded #firstLoading span.box1 {
+            -webkit-transition-delay: 0.1s;
+            -o-transition-delay: 0.1s;
+            transition-delay: 0.1s
+        }
+
+        body.loaded #firstLoading span.box2 {
+            -webkit-transition-delay: 0.2s;
+            -o-transition-delay: 0.2s;
+            transition-delay: 0.2s
+        }
+
+        body.loaded #firstLoading span.box3 {
+            -webkit-transition-delay: 0.3s;
+            -o-transition-delay: 0.3s;
+            transition-delay: 0.3s
+        }
+
+        body.loaded #firstLoading span.box4 {
+            -webkit-transition-delay: 0.4s;
+            -o-transition-delay: 0.4s;
+            transition-delay: 0.4s
+        }
+
+        body.loaded #firstLoading span.box5 {
+            -webkit-transition-delay: 0.5s;
+            -o-transition-delay: 0.5s;
+            transition-delay: 0.5s
+        }
+
+        #firstLoading .super-mario-wrap-first {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            z-index: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        body.loaded #firstLoading .super-mario-wrap-first {
+            -webkit-animation: 1.2s linear forwards superMarioFirst;
+            animation: 1.2s linear forwards superMarioFirst
+        }
+
+        #firstLoading .super-mario-wrap-first img.mario {
+            width: 3rem;
+            height: auto;
+            aspect-ratio: auto 15/16
+        }
+
+        #firstLoading .super-mario-wrap-first img.mushroom {
+            width: 1.5rem;
+            height: auto;
+            margin-left: .7rem;
+            aspect-ratio: auto 1/1
+        }
+
+        @-webkit-keyframes superMarioFirst {
+            to {
+                -webkit-transform: translateX(120vw);
+                transform: translateX(120vw)
+            }
+        }
+
+        @keyframes superMarioFirst {
+            to {
+                -webkit-transform: translateX(120vw);
+                transform: translateX(120vw)
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            #firstLoading .super-mario-wrap-first img.mario {
+                width: 2rem
+            }
+
+            #firstLoading .super-mario-wrap-first img.mushroom {
+                width: 1rem
+            }
+
+            #firstLoading .super-mario-wrap-first {
+                left: 1rem;
+                bottom: 1rem
+            }
+        }
+
+        @media only screen and (min-width:769px) and (max-width:1199px) {
+            .super-mario-wrap img.mario {
+                width: 2rem
+            }
+
+            .super-mario-wrap img.mushroom {
+                width: 1rem
+            }
+        }
+
+        @media only screen and (min-width:1200px) and (max-width:1600px) {
+            #firstLoading .super-mario-wrap-first img.mario {
+                width: 2rem
+            }
+
+            #firstLoading .super-mario-wrap-first img.mushroom {
+                width: 1rem;
+                margin-top: .5rem
+            }
+        }
+
+        .router-overlay,
+        .router-overlay-first {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            background-color: var(--yellow)
+        }
+
+        .router-overlay {
+            z-index: 10000;
+            -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+            transform-origin: left
+        }
+
+        .router-overlay-first {
+            z-index: 10001;
+            -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+            transform-origin: right;
+            -webkit-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out
+        }
+
+        body.loaded .router-overlay-first {
+            -webkit-transform: translateX(100vw);
+            -ms-transform: translateX(100vw);
+            transform: translateX(100vw)
+        }
+
+        @-webkit-keyframes superMario {
+            to {
+                -webkit-transform: translateX(100vw);
+                transform: translateX(100vw)
+            }
+        }
+
+        @keyframes superMario {
+            to {
+                -webkit-transform: translateX(100vw);
+                transform: translateX(100vw)
+            }
+        }
+
+        .super-mario-wrap {
+            position: absolute;
+            bottom: 1.5rem;
+            left: 2rem
+        }
+
+        body.loaded .super-mario-wrap {
+            -webkit-animation: 2s ease-in-out forwards superMario;
+            animation: 2s ease-in-out forwards superMario
+        }
+
+        .super-mario-wrap img.mario {
+            width: 3rem;
+            height: auto;
+            aspect-ratio: auto 15/16
+        }
+
+        .super-mario-wrap img.mushroom {
+            width: 1.5rem;
+            height: auto;
+            aspect-ratio: auto 1/1
+        }
+
+        @media only screen and (max-width:768px) {
+            .super-mario-wrap img.mario {
+                width: 2rem
+            }
+
+            .super-mario-wrap img.mushroom {
+                width: 1rem
+            }
+
+            #language a img {
+                width: 2.25rem;
+                height: .95rem
+            }
+        }
+
+        @media only screen and (min-width:769px) and (max-width:1199px) {
+            .super-mario-wrap img.mario {
+                width: 2rem
+            }
+
+            .super-mario-wrap img.mushroom {
+                width: 1rem
+            }
+        }
+
+        @media only screen and (min-width:1200px) and (max-width:1400px) {
+            .super-mario-wrap img.mario {
+                width: 2rem
+            }
+
+            .super-mario-wrap img.mushroom {
+                width: 1rem
+            }
+        }
+
+        @media only screen and (min-width:1401px) and (max-width:1600px) {
+            .super-mario-wrap img.mario {
+                width: 2rem
+            }
+
+            .super-mario-wrap img.mushroom {
+                width: 1rem
+            }
+        }
+
+        /* Target the canvas element inside the spline-viewer */
+        spline-viewer::part(canvas) {
+            margin: auto;
+        }
+    </style>
+    <script type="litespeed/javascript" data-src="https://www.googletagmanager.com/gtag/js?id=G-TFLQD5V8VN"></script>
+    <script type="litespeed/javascript">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());gtag('config','G-TFLQD5V8VN')</script>
+    <script
+        type="litespeed/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=!0;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-MNVT2QC')</script>
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <link rel="alternate" hreflang="en" href="https://hidokmeh.com" />
+    <link rel="alternate" hreflang="fa" href="fa/" />
+    <link rel="alternate" hreflang="x-default" href="https://hidokmeh.com" />
+    <title>Home page</title>
+    <meta name="description"
+        content="We are a creative team of designers, developers, and strategists, buildingelevatedwebsites in the heart of Tehran." />
+    <link rel="canonical" href="" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dokmeh Digital Marketing Agency ✨" />
+    <meta property="og:description"
+        content="✨ Where cutting-edge technology meets electrifying creativity, you&#039;ll find us. We&#039;re a team of passionate tech-wizards and creative geniuses, fueled by a shared vision: to push boundaries and build the future." />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Dokmeh Agency | The Most Creative Web &amp; design Agency in Iran" />
+    <meta property="article:modified_time" content="2024-07-27T06:31:57+00:00" />
+    <meta property="og:image" content="media/2023/12/Icon01-3.gif" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image:type" content="image/gif" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dokmeh Digital Marketing Agency ✨" />
+    <meta name="twitter:description"
+        content="✨ Where cutting-edge technology meets electrifying creativity, you&#039;ll find us. We&#039;re a team of passionate tech-wizards and creative geniuses, fueled by a shared vision: to push boundaries and build the future." />
+    <meta name="twitter:image" content="media/2023/12/dokmeh-x-thumb.jpg" />
+    <script type="application/ld+json" class="yoast-schema-graph">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "WebPage",
+                "@id": "",
+                "url": "",
+                "name": "Dokmeh | The Most Creative Web Design Agency in Tehran",
+                "isPartOf": {
+                    "@id": "#website"
+                },
+                "about": {
+                    "@id": "#organization"
+                },
+                "primaryImageOfPage": {
+                    "@id": "#primaryimage"
+                },
+                "image": {
+                    "@id": "#primaryimage"
+                },
+                "thumbnailUrl": "media/2023/12/Icon01-3.gif",
+                "datePublished": "2022-08-03T09:33:57+00:00",
+                "dateModified": "2024-07-27T06:31:57+00:00",
+                "description": "We are a creative team of designers, developers, and strategists, buildingelevatedwebsites in the heart of Tehran.",
+                "breadcrumb": {
+                    "@id": "#breadcrumb"
+                },
+                "inLanguage": "en-US",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": [""]
+                }]
+            }, {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "#primaryimage",
+                "url": "media/2023/12/Icon01-3.gif",
+                "contentUrl": "media/2023/12/Icon01-3.gif",
+                "width": 300,
+                "height": 300
+            }, {
+                "@type": "BreadcrumbList",
+                "@id": "#breadcrumb",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home"
+                }]
+            }, {
+                "@type": "WebSite",
+                "@id": "#website",
+                "url": "",
+                "name": "Dokmeh Agency - Award winning digital agency",
+                "description": "Dokmeh Agency | The Most Creative Web &amp; design Agency in Iran",
+                "publisher": {
+                    "@id": "#organization"
+                },
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }],
+                "inLanguage": "en-US"
+            }, {
+                "@type": "Organization",
+                "@id": "#organization",
+                "name": "Dokmeh Agency - Award winning digital agency",
+                "url": "",
+                "logo": {
+                    "@type": "ImageObject",
+                    "inLanguage": "en-US",
+                    "@id": "#/schema/logo/image/",
+                    "url": "media/2024/06/logo.svg",
+                    "contentUrl": "media/2024/06/logo.svg",
+                    "width": 1,
+                    "height": 1,
+                    "caption": "Dokmeh Agency - Award winning digital agency"
+                },
+                "image": {
+                    "@id": "#/schema/logo/image/"
+                },
+                "sameAs": ["https://www.linkedin.com/company/dokmeh-agency/", "https://www.instagram.com/dokmeh_studio/", "https://www.behance.net/dokmehs", "https://dribbble.com/dokmeh", "https://www.sortlist.com/agency/dokmeh-studio"]
+            }]
+        }
+    </script>
+    <link rel="https://api.w.org/" href="wp-json/" />
+    <link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/62" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+    <link rel='shortlink' href='' />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Dokmeh Digital Marketing Agency",
+            "serviceType": "digital Marketing, Website Design",
+            "image": {
+                "@type": "ImageObject",
+                "url": "media/2023/12/Icon01-3.gif",
+                "width": 300,
+                "height": 300
+            },
+            "provider": {
+                "@type": "LocalBusiness",
+                "name": "Dokmeh Agency | The Most Creative Web &amp; design Agency in Iran",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "media/2022/08/183A1969.jpg",
+                    "width": 1700,
+                    "height": 1133
+                },
+                "telephone": "+989196818114",
+                "priceRange": "5000$",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "IRAN",
+                    "addressRegion": "Tehran",
+                    "streetAddress": "Unit 14, No 250, Niavaran Street"
+                }
+            },
+            "areaServed": {
+                "@type": "State",
+                "name": "International"
+            },
+            "description": "From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses 💪, creating memorable brands and digital products. Our expertise grows with each year 😎, and our accumulated experience empowers us to develop products exactly as they should be."
+        }
+    </script>
+    <style id="wpsp-style-frontend"></style>
+    <link rel="icon" href="media/2023/12/cropped-Dokmeh-Fav-1-32x32.jpg" sizes="32x32" />
+    <link rel="icon" href="media/2023/12/cropped-Dokmeh-Fav-1-192x192.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="media/2023/12/cropped-Dokmeh-Fav-1-180x180.jpg" />
+    <meta name="msapplication-TileImage"
+        content="media/2023/12/cropped-Dokmeh-Fav-1-270x270.jpg" />
+</head>
+
+<body data-pageType="home"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNVT2QC" height="0"
+            width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="router-overlay-first">
+        <div class="super-mario-wrap"> <img class="mario" src="dokmeh/assets/img/mario.webp"
+                alt="Super Mario" data-no-lazy="1"> <img class="mushroom"
+                src="dokmeh/assets/img/mario-mushroom_rainbow.webp" alt="Mario Mushroom"
+                data-no-lazy="1"> </div>
+    </div>
+    <header>
+        <div class="nav-social menu_items_list">
+            <div class="socialMedia"> <a target="_blank" href="https://dribbble.com/dokmeh"
+                    aria-label="Dokmeh Agency Dribble"> <span class="icon-Dribbble" aria-hidden="true"></span> </a> <a
+                    href="https://wa.me/+989196818114" aria-label="Dokmeh Agency whatsapp"> <span class="icon-Whats-app"
+                        aria-hidden="true"></span> </a> <a target="_blank" href="https://www.behance.net/dokmehs"
+                    aria-label="Dokmeh Agency Behance"> <span class="icon-Behance" aria-hidden="true"></span> </a> <a
+                    target="_blank" href="https://www.linkedin.com/company/dokmeh-agency/"
+                    aria-label="Dokmeh Agency linkedin"> <span class="icon-Linkedin" aria-hidden="true"></span> </a> <a
+                    target="_blank" href="https://www.youtube.com/channel/UCMDh3nXt8kto3o-Cg1I17fA"
+                    aria-label="Dokmeh Agency Youtube"> <span class="icon-Youtube" aria-hidden="true"></span> </a> <a
+                    target="_blank" href="https://instagram.com/dokmeh_agency" aria-label="Dokmeh Agency Instagram">
+                    <span class="icon-Instagram" aria-hidden="true"></span> </a> </div>
+            <nav> <a href="projects/"
+                    class="menu_item_list hover-effect menuItem works">Projects</a> <a
+                    href="about-us/" class="menu_item_list hover-effect about">About us</a> <a
+                    href="contact-us/" class="menu_item_list hover-effect contact">Contact us</a>
+            </nav>
+        </div>
+    </header><a href="" id="identity" class="identity menuItem"
+        aria-label="Dokmeh agency landing page"> <img fetchpriority="high"
+            src="media/2024/06/logo.svg" alt="Dokmeh Agency" data-no-lazy="1"></a>
+    <div id="language">
+        <div class="mobile-language"> <a role="link" aria-label="View another language" href="fa/"
+                class="menuItem"><img src="dokmeh/assets/img/persian.svg" alt="persian lang"
+                    data-no-lazy="1"></a> </div>
+    </div>
+    <div class='mwai-chatbot-container'
+        data-params='{&quot;aiName&quot;:&quot;DKM GPT&quot;,&quot;userName&quot;:&quot;User: &quot;,&quot;guestName&quot;:&quot;Guest:&quot;,&quot;textSend&quot;:&quot;Send&quot;,&quot;textClear&quot;:&quot;Clear&quot;,&quot;textInputPlaceholder&quot;:&quot;Just Ask me...&quot;,&quot;textInputMaxLength&quot;:512,&quot;textCompliance&quot;:&quot;Dokmeh&#039;s AI Assistant Based on Chat GPT-4o&quot;,&quot;startSentence&quot;:&quot;Hi! How can I help you?&quot;,&quot;localMemory&quot;:1,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;window&quot;:1,&quot;icon&quot;:&quot;https:\/\/hidokmeh.com\/media\/2024\/06\/openai-chatgpt-logo-icon-free-png_40.webp&quot;,&quot;iconText&quot;:&quot;&quot;,&quot;iconTextDelay&quot;:1,&quot;iconAlt&quot;:&quot;AI Chatbot Avatar&quot;,&quot;iconPosition&quot;:&quot;bottom-right&quot;,&quot;iconBubble&quot;:&quot;&quot;,&quot;fullscreen&quot;:1,&quot;copyButton&quot;:&quot;&quot;}'
+        data-system='{&quot;botId&quot;:&quot;default&quot;,&quot;customId&quot;:null,&quot;userData&quot;:null,&quot;sessionId&quot;:&quot;N\/A&quot;,&quot;restNonce&quot;:null,&quot;contextId&quot;:62,&quot;pluginUrl&quot;:&quot;https:\/\/hidokmeh.com\/engine\/&quot;,&quot;restUrl&quot;:&quot;https:\/\/hidokmeh.com\/wp-json&quot;,&quot;stream&quot;:false,&quot;debugMode&quot;:false,&quot;speech_recognition&quot;:true,&quot;speech_synthesis&quot;:false,&quot;typewriter&quot;:false,&quot;virtual_keyboard_fix&quot;:false,&quot;actions&quot;:[],&quot;blocks&quot;:[],&quot;shortcuts&quot;:[]}'
+        data-theme='{&quot;type&quot;:&quot;internal&quot;,&quot;name&quot;:&quot;ChatGPT&quot;,&quot;themeId&quot;:&quot;chatgpt&quot;,&quot;settings&quot;:[],&quot;style&quot;:&quot;&quot;}'>
+    </div>
+    <div id="screenSaver"><img src="media/2024/06/logo.svg" alt="Dokmeh agency logo"
+            data-no-lazy="1"></div>
+    <main class="wrapper homeWrapper">
+        <div id="aboutVideoContainer"></div>
+        <section class="heroSectionContainer centeredIcon">
+            <div class="video-overlay" style="width: 100%;height: 100vh;overflow: hidden">
+                <div class="heroCloseIcon"> <img src="dokmeh/assets/img/herocloseicon.webp" alt="">
+                </div> <video controlsList="nodownload" id="heroVideoDesktop" autoplay loop preload="auto"
+                    poster="media/2024/07/DKM-BG-HERO-Desktop.jpg" muted playsinline
+                    class="lazyLoadVideo">
+                    <source data-src="media/2024/07/DOKMEH-Video-Intro_Desktop_loop.mp4"
+                        type="video/mp4"
+                        data-fullVideo-src="media/2024/07/DOKMEH-Video-Intro_web.mp4">
+                </video> <video controlsList="nodownload" id="fullVideoDesktop" poster="" playsinline
+                    class="lazyLoadVideo" controls>
+                    <source data-src="" type="video/mp4">
+                </video>
+            </div>
+            </div>
+            <div class="heroPlayIcon">
+                <div class="text one"> <span class="scrumble">We Don’t Just <br>Create <br>Good Shits!</span> </div>
+                <div class="iconContainer">
+                    <div class="outerObject"> <img src="dokmeh/assets/img/heroplayicon-out.svg"
+                            alt="hero Play Icon outer"> </div>
+                    <div class="innerObject"> <img src="dokmeh/assets/img/heroplayicon-center.webp"
+                            alt="hero Play Icon inner"> <img
+                            src="dokmeh/assets/img/heroplayicon-yellow-center.webp"
+                            alt="yellow hero Play Icon inner"> </div>
+                </div>
+                <div class="text two"> <span class="scrumble">We Level-Up</span> <span class="scrumble">We
+                        Develop</span> <span class="scrumble">We Affect</span> </div>
+            </div>
+            <div class="heroSectionInfoButton withIcon">
+                <div class="heroSectionInfo">
+                    <div class="heroSectionInfo_text">
+                        <p class="title__one">Award winning ✨</p>
+                        <h1>Dokmeh Creative Agency</h1>
+                        <p class="title__two">making tailor-made interactive website and experiences</p>
+                    </div>
+                    <div class="award-subscript">
+                        <div class="awardBoxes"> <a aria-label="Dokmeh's profile page on the awwwards"
+                                href="https://www.awwwards.com/dokmeh/" class="awardBox"> <span class="number">05</span>
+                                <div class="logo"><img src="media/2023/12/awwward-logo.svg"
+                                        alt="Awwwards logo"></div>
+                            </a> <a aria-label="VDokmeh's profile page on the css design awards"
+                                href="https://www.cssdesignawards.com/sites/dokmeh-agency/41984/" class="awardBox">
+                                <span class="number">25</span>
+                                <div class="logo"><img src="media/2024/08/css-design-awards.svg"
+                                        alt="Css design awards logo"></div>
+                            </a> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientsContainer">
+            <div class="text-marquee">
+                <div class="text-single rollingText text">
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/helger-logo-3.svg" alt="Helger"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/nextoffice-logo-1.svg" alt="Next Office"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/erdas-logo-1.svg" alt="Merdas Chocolate"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/night-king-1-1.svg" alt="Night king Energy">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/image-32.webp"
+                            alt="Contemporary Architects Association of Iran"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/nazari-logo-1.svg"
+                            alt="Nazari Industries Group"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/image-38.webp" alt="Eigal"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/royal-logo-1-2.svg" alt="Royal Jeans"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/tarh-aval-1-1.svg" alt="Tarhe Aval"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/zandigan-logo-1-1.svg" alt="Zandigan"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/paadiran-logo-1.svg"
+                            alt="Paadiran office furniture"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/sohankhodkar-logo-1.svg" alt="Sohan Khodkar">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/rougine-darou-logo-1.svg" alt="Rougine Darou">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/negin-motor-1.svg" alt="negin motors"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/badr-logo-1-1.svg" alt="Badr food"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/rabee-logo-2-1.svg" alt="Rabee food"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/darman-ara-logo-1-1.svg" alt="Darman Ara">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2022/08/fma-logo-1.png" alt="Fluid Motion Architect">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/goldis-tile-logo-1.svg" alt="Goldis Tile">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2022/08/chilai-logo-1.png" alt="Chilia Group"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/helger-logo-3.svg" alt="Helger"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/nextoffice-logo-1.svg" alt="Next Office"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/erdas-logo-1.svg" alt="Merdas Chocolate"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/night-king-1-1.svg" alt="Night king Energy">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/image-32.webp"
+                            alt="Contemporary Architects Association of Iran"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/nazari-logo-1.svg"
+                            alt="Nazari Industries Group"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/image-38.webp" alt="Eigal"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/royal-logo-1-2.svg" alt="Royal Jeans"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/tarh-aval-1-1.svg" alt="Tarhe Aval"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/zandigan-logo-1-1.svg" alt="Zandigan"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/paadiran-logo-1.svg"
+                            alt="Paadiran office furniture"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/sohankhodkar-logo-1.svg" alt="Sohan Khodkar">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/rougine-darou-logo-1.svg" alt="Rougine Darou">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/negin-motor-1.svg" alt="negin motors"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/badr-logo-1-1.svg" alt="Badr food"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/rabee-logo-2-1.svg" alt="Rabee food"></div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/darman-ara-logo-1-1.svg" alt="Darman Ara">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2022/08/fma-logo-1.png" alt="Fluid Motion Architect">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2024/06/goldis-tile-logo-1.svg" alt="Goldis Tile">
+                    </div>
+                    <div class="text js-text"><img class="lazyload blur-up"
+                            data-src="media/2022/08/chilai-logo-1.png" alt="Chilia Group"></div>
+                </div>
+            </div>
+        </section>
+        <section class="featureProjectContainer paddingX"> <a href="projects/dorr-architects/"
+                class="featureProjectMediaWrap menuItem" aria-label="Read more about Dorr Architecture Group"> <video
+                    id="heroVideo" controlsList="nodownload" autoplay loop preload="auto"
+                    poster="media/2024/06/002-1-1024x576.jpg" muted playsinline
+                    class="lazyLoadVideo">
+                    <source data-src="media/2024/06/dorr-architects-website-by-dokmeh.mov"
+                        type="video/mp4">
+                </video id="heroVideo"> </a> <a href="projects/dorr-architects/"
+                class="featureProjectInfoWrapper menuItem" aria-label="Read more about Dorr Architecture Group">
+                <div class="blob-wrap">
+                    <div class="blob blobOne"></div>
+                    <div class="blob blobTwo"></div>
+                </div>
+                <div class="featureProjectDescription">
+                    <p>Dorr Architecture Studio Is A Forward-Thinking Architectural Firm That Pushes The Boundaries Of
+                        Design To Create Exceptional Spaces That Elevate The Human Experience.</p>
+                </div>
+                <div class="featureProjectTitle">
+                    <h2>Dorr Architecture Group</h2>
+                    <div class="year-type-wrap"> <span>Website-2024</span> </div>
+                </div>
+            </a> </section>
+        <section class="worksContainer">
+            <div class="projectsContainer paddingX"> <a href="#/" class="projectWrap deactive-link"
+                    aria-label="Read more about Negin Motors">
+                    <div class="projectMedia videoMedia">
+                        <div class="mainImage"> <video controlsList="nodownload" autoplay loop preload="auto"
+                                poster="media/2024/03/negin-motor-14-1024x614.jpg" muted
+                                playsinline class="lazyLoadVideo">
+                                <source data-src="media/2024/03/NEGIN-H-1.mp4" type="video/mp4">
+                            </video> </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2024/03/negin-motor-14-150x90.jpg"
+                                alt="Negin Motors"> </div>
+                        <div class="coming-soon">
+                            <p>✨Coming Soon✨</p>
+                        </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Negin Motors</h2>
+                        <p>Website</p>
+                    </div>
+                </a> <a href="projects/gillamoon-museums-identity-design/"
+                    class="projectWrap menuItem" aria-label="Read more about Gillamoon Museum’s Identity Design">
+                    <div class="projectMedia videoMedia">
+                        <div class="mainImage"> <video controlsList="nodownload" autoplay loop preload="auto" poster=""
+                                muted playsinline class="lazyLoadVideo">
+                                <source data-src="media/2024/06/Gilamoon.mp4" type="video/mp4">
+                            </video> </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up" data-src=""
+                                alt="Gillamoon Museum’s Identity Design"> </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Gillamoon Museum’s Identity Design</h2>
+                        <p></p>
+                    </div>
+                </a> <a href="#/" class="projectWrap deactive-link" aria-label="Read more about Nexa group">
+                    <div class="projectMedia videoMedia">
+                        <div class="mainImage"> <video controlsList="nodownload" autoplay loop preload="auto"
+                                poster="media/2024/07/The-Glass-Cube@2-2560x895-1-1024x358.jpg"
+                                muted playsinline class="lazyLoadVideo">
+                                <source
+                                    data-src="media/2024/07/Screen-Recording-2024-07-07-at-8.59.50 PM.mov"
+                                    type="video/mp4">
+                            </video> </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2024/07/The-Glass-Cube@2-2560x895-1-150x52.jpg"
+                                alt="Nexa group"> </div>
+                        <div class="coming-soon">
+                            <p>✨Coming Soon✨</p>
+                        </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Nexa group</h2>
+                        <p></p>
+                    </div>
+                </a> <a href="projects/red-stories-of-experiment/" class="projectWrap menuItem"
+                    aria-label="Read more about RED, STORIES OF EXPERIMENT">
+                    <div class="projectMedia ">
+                        <div class="mainImage">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    data-srcset="media/2023/12/ghermez-1024x640.jpg">
+                                <source media="(min-width: 1024px)"
+                                    data-srcset="media/2023/12/ghermez-600x375.jpg"> <img
+                                    class="lazyload blur-up"
+                                    data-src="media/2023/12/ghermez-600x375.jpg"
+                                    alt="RED, STORIES OF EXPERIMENT">
+                            </picture>
+                        </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2023/12/ghermez-150x94.jpg"
+                                alt="RED, STORIES OF EXPERIMENT"> </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>RED, STORIES OF EXPERIMENT</h2>
+                        <p>2023 - Website</p>
+                    </div>
+                </a> <a href="projects/nextoffice-architecture-studio/"
+                    class="projectWrap menuItem" aria-label="Read more about Nextoffice &#8211; Alireza Taghaboni">
+                    <div class="projectMedia videoMedia">
+                        <div class="mainImage"> <video controlsList="nodownload" autoplay loop preload="auto"
+                                poster="media/2024/06/nextoffice-home-laptop-1024x682.jpg" muted
+                                playsinline class="lazyLoadVideo">
+                                <source data-src="media/2024/06/nextoffice-mouckup.mp4"
+                                    type="video/mp4">
+                            </video> </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2024/06/nextoffice-home-laptop-150x100.jpg"
+                                alt="Nextoffice &#8211; Alireza Taghaboni"> </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Nextoffice &#8211; Alireza Taghaboni</h2>
+                        <p>2017 - Website</p>
+                    </div>
+                </a> <a href="projects/golshaah/" class="projectWrap menuItem"
+                    aria-label="Read more about Golshaah">
+                    <div class="projectMedia videoMedia">
+                        <div class="mainImage"> <video controlsList="nodownload" autoplay loop preload="auto"
+                                poster="media/2022/09/golshah-1024x640.jpg" muted playsinline
+                                class="lazyLoadVideo">
+                                <source
+                                    data-src="media/2022/09/CA2CCC2E-DD2A-4BFE-B743-13176384DBCF_1.mp4"
+                                    type="video/mp4">
+                            </video> </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2022/09/golshah-150x94.jpg" alt="Golshaah"> </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Golshaah</h2>
+                        <p>2020 - Website</p>
+                    </div>
+                </a> <a href="projects/mivinna/" class="projectWrap menuItem"
+                    aria-label="Read more about Mivinna">
+                    <div class="projectMedia videoMedia">
+                        <div class="mainImage"> <video controlsList="nodownload" autoplay loop preload="auto"
+                                poster="media/2024/03/5a905587b47d9Citrix-Thumb-1-1024x575.jpg"
+                                muted playsinline class="lazyLoadVideo">
+                                <source data-src="media/2024/04/mivina-web-01-dokmeh.mp4"
+                                    type="video/mp4">
+                            </video> </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2024/03/5a905587b47d9Citrix-Thumb-1-150x84.jpg"
+                                alt="Mivinna"> </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Mivinna</h2>
+                        <p>Website</p>
+                    </div>
+                </a> <a href="projects/modern-and-futuristic-landing-page-design-for-arenpro-com/"
+                    class="projectWrap menuItem"
+                    aria-label="Read more about Modern and Futuristic Landing Page Design for arenpro.com">
+                    <div class="projectMedia ">
+                        <div class="mainImage">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    data-srcset="media/2024/07/02-Laptop-Mockup-1024x683.jpg">
+                                <source media="(min-width: 1024px)"
+                                    data-srcset="media/2024/07/02-Laptop-Mockup-600x400.jpg"> <img
+                                    class="lazyload blur-up"
+                                    data-src="media/2024/07/02-Laptop-Mockup-600x400.jpg"
+                                    alt="Modern and Futuristic Landing Page Design for arenpro.com">
+                            </picture>
+                        </div>
+                        <div class="hoverImage"> <img class="lazyload blur-up"
+                                data-src="media/2024/07/02-Laptop-Mockup-150x100.jpg"
+                                alt="Modern and Futuristic Landing Page Design for arenpro.com"> </div>
+                    </div>
+                    <div class="projectInfo">
+                        <h2>Modern and Futuristic Landing Page Design for arenpro.com</h2>
+                        <p>Ui Design - 2023</p>
+                    </div>
+                </a> </div>
+            <div class="allProjectWrap">
+                <div class="allProjectBack"> <img id="greenStar" class="lazyload blur-up"
+                        data-src="dokmeh/assets/img/star-green.svg" alt="star"></div> <a
+                    href="projects/" class="allProjectLink menuItem"
+                    aria-label="See the projects page">All Projects 🍑 🤏🏽</a>
+            </div>
+        </section>
+        <section class="aboutContainerMedia paddingX">
+            <picture>
+                <source media="(min-width: 1200px)" data-srcset="media/2024/08/Poster-02.jpg">
+                <source media="(min-width: 1024px)"
+                    data-srcset="media/2024/08/Poster-tablet-02.jpg"> <img class="lazyload blur-up"
+                    data-src="media/2024/08/Poster-mobile-02.jpg" alt="Dokmeh Awards">
+            </picture>
+        </section>
+        <section class="aboutFeaturesContainer paddingX">
+            <div class="featureWrap"> <span class="title">Over</span>
+                <div class="features-item">
+                    <p>40+</p>
+                    <div class="features-item-media"> <a aria-label="Dokmeh Agency CSS Design Awards" target="_blank"
+                            href="https://www.cssdesignawards.com/sites/dokmeh-agency/41984/"><img
+                                class="lazyload blur-up" data-src="media/2023/12/c-d-a.svg"
+                                alt="css design awards" fetchpriority="low"></a> <a aria-label="Dokmeh Agency Awwwwards"
+                            target="_blank" href="https://www.awwwards.com/dokmeh/"><img class="lazyload blur-up"
+                                data-src="media/2023/12/awwards.svg" fetchpriority="low"
+                                alt="Awwwwards"></a> </div>
+                </div> <span class="title">Awards!</span>
+            </div>
+            <div class="featureWrap"> <span class="title">Over the course of </span>
+                <div class="features-item">
+                    <p>144</p>
+                </div> <span class="title">Months in Business</span>
+            </div>
+            <div class="featureWrap"> <span class="title">Over</span>
+                <div class="features-item">
+                    <p>300+</p>
+                </div> <span class="title">Website Launched</span>
+            </div>
+            <div class="featureWrap"> <span class="title">Over the course of </span>
+                <div class="features-item">
+                    <p>25</p>
+                </div> <span class="title">Party with Cool Friend & Clients</span>
+            </div>
+        </section>
+        <section class="servicesContainer">
+            <h2 class="title_item">Services</h2>
+            <div class="servicesWrapper">
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">Brand Designing</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">UI / UX</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">Web Development</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">SEO</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">Digital Marketing</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">Strategy & Creative Idea</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">Packaging & Logo Design</span> </div>
+                <div class="list__item"> <span class="blankSpace"></span> <span class="number"></span> <span
+                        class="list__item-col hover-effect hover-effect--bg">MVP’s</span> </div>
+            </div>
+        </section>
+        <section class="homeBannerContainer">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    data-srcset="media/2024/08/Wall-Poster-Mockup.webp">
+                <source media="(min-width: 1024px)"
+                    data-srcset="media/2024/08/Wall-Poster-Mockup-tablet.webp"> <img
+                    class="lazyload blur-up"
+                    data-src="media/2024/08/Wall-Poster-Mockup-mobile.webp"
+                    alt="poster dokmeh on street">
+            </picture>
+        </section>
+        <section class="aboutHeroSection" id="aboutHeroSection">
+            <div class="aboutHeroSectionWrap">
+                <div class="shuffleMediaWrapper">
+                    <div class="shuffleMediaItems"> <canvas id="shuffleMedia"> </div>
+                </div>
+                <div class="heroSectionAboutTitle">
+                    <h1>We Don’t Just<br><span class="boldItalic">Create</span><br><span class="italic">Good
+                            Shits!</span></h1>
+                </div>
+            </div>
+            <div class="heroSectionSlogan">
+                <p>We Elevate</p>
+                <p>We Develop</p>
+                <p><span>we</span>Affect</p>
+            </div>
+        </section>
+    </main>
+    <footer> <span class="mail" style="display: none"> <a class="mail" href="mailto:hi@hidokmeh.com"> Hi@ <br> hidokmeh
+                <br>.com</a></span>
+        <div class="info paddingX">
+            <div class="dokmeh"> <a href="" class="logo menuItem" aria-label="Dokmeh Agency"><img
+                        fetchpriority="low" src="dokmeh/assets/img/logo-footer.svg"
+                        alt="Dokmeh Agency"></a> <span class="right">© 2024 All Rights Reserved</span> </div>
+            <div class="contact">
+                <div class="socialMedia"> <a target="_blank" href="https://dribbble.com/dokmeh"
+                        aria-label="Dokmeh Agency Dribble"> <span class="icon-Dribbble" aria-hidden="true"></span> </a>
+                    <a href="https://wa.me/+989196818114" aria-label="Dokmeh Agency whatsapp"> <span
+                            class="icon-Whats-app" aria-hidden="true"></span> </a> <a target="_blank"
+                        href="https://www.behance.net/dokmehs" aria-label="Dokmeh Agency Behance"> <span
+                            class="icon-Behance" aria-hidden="true"></span> </a> <a target="_blank"
+                        href="https://www.linkedin.com/company/dokmeh-agency/" aria-label="Dokmeh Agency linkedin">
+                        <span class="icon-Linkedin" aria-hidden="true"></span> </a> <a target="_blank"
+                        href="https://www.youtube.com/channel/UCMDh3nXt8kto3o-Cg1I17fA"
+                        aria-label="Dokmeh Agency Youtube"> <span class="icon-Youtube" aria-hidden="true"></span> </a>
+                    <a target="_blank" href="https://instagram.com/dokmeh_agency" aria-label="Dokmeh Agency Instagram">
+                        <span class="icon-Instagram" aria-hidden="true"></span> </a> </div> <a target="_blank"
+                    href="mailto:Hi@HiDokmeh.com" class="email">Hi@HiDokmeh.com</a> <a target="_blank"
+                    href="tel:00982126858636" class="phone">+98 21 26 858 636</a> <a target="_blank"
+                    href="https://www.google.com/maps/dir/?api=1&amp;destination=35.81212479422347,51.44972344244073"
+                    class="address" target="_blank">Unit 14, No. 250, Niavaran St.</a>
+            </div>
+        </div>
+    </footer>
+    <div class="router-overlay"></div>
+    <script defer src="dokmeh/assets/js/nodelay.js" id="nodelay_js"></script>
+    <script defer src="dokmeh/assets/js/split-type.min.js"></script>
+    <script defer type="module" src="dokmeh/assets/js/homeIndex.js?v=1.0.1"></script>
+    <script type="text/javascript" id="wpsp-script-frontend"></script>
+    <script data-optimized="1" type="litespeed/javascript"
+        data-src="dokmehfiles/litespeed/js/f54d64ca0fb3f7fcd2cde3f360889662.js?ver=f93dc"></script>
+    <script>
+        const litespeed_ui_events = ["mouseover", "click", "keydown", "wheel", "touchmove", "touchstart"];
+        var urlCreator = window.URL || window.webkitURL;
+
+        function litespeed_load_delayed_js_force() {
+            console.log("[LiteSpeed] Start Load JS Delayed"), litespeed_ui_events.forEach(e => {
+                window.removeEventListener(e, litespeed_load_delayed_js_force, {
+                    passive: !0
+                })
+            }), document.querySelectorAll("iframe[data-litespeed-src]").forEach(e => {
+                e.setAttribute("src", e.getAttribute("data-litespeed-src"))
+            }), "loading" == document.readyState ? window.addEventListener("DOMContentLoaded", litespeed_load_delayed_js) : litespeed_load_delayed_js()
+        }
+        litespeed_ui_events.forEach(e => {
+            window.addEventListener(e, litespeed_load_delayed_js_force, {
+                passive: !0
+            })
+        });
+        async function litespeed_load_delayed_js() {
+            let t = [];
+            for (var d in document.querySelectorAll('script[type="litespeed/javascript"]').forEach(e => {
+                t.push(e)
+            }), t) await new Promise(e => litespeed_load_one(t[d], e));
+            document.dispatchEvent(new Event("DOMContentLiteSpeedLoaded")), window.dispatchEvent(new Event("DOMContentLiteSpeedLoaded"))
+        }
+
+        function litespeed_load_one(t, e) {
+            console.log("[LiteSpeed] Load ", t);
+            var d = document.createElement("script");
+            d.addEventListener("load", e), d.addEventListener("error", e), t.getAttributeNames().forEach(e => {
+                "type" != e && d.setAttribute("data-src" == e ? "src" : e, t.getAttribute(e))
+            });
+            let a = !(d.type = "text/javascript");
+            !d.src && t.textContent && (d.src = litespeed_inline2src(t.textContent), a = !0), t.after(d), t.remove(), a && e()
+        }
+
+        function litespeed_inline2src(t) {
+            try {
+                var d = urlCreator.createObjectURL(new Blob([t.replace(/^(?:)?$/gm, "$1")], {
+                    type: "text/javascript"
+                }))
+            } catch (e) {
+                d = "data:text/javascript;base64," + btoa(t.replace(/^(?:)?$/gm, "$1"))
+            }
+            return d
+        }
+    </script>
+</body>
+
+</html>
