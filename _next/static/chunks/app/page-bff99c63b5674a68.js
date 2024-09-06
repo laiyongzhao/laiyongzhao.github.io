@@ -2112,7 +2112,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl",
                                 children: (0, a.jsx)(S.default, {
-                                    src: "/projects/Station-money.png",
+                                    src: "bs.png",
                                     alt: "填充的文字",
                                     fill: !0,
                                     style: {
