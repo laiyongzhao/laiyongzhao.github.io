@@ -1843,7 +1843,7 @@
                                 children: l
                             }), (0, a.jsx)("h1", {
                                 className: s()("text-3xl md:text-4xl font-medium dark:text-white text-black text-left w-fit", {
-                                    "line-through opacity-55": !n,
+                                    //这是赖永钊加的注释，删除线，半透明"line-through opacity-55": !n,
                                     "opacity-100": n
                                 }),
                                 children: r
