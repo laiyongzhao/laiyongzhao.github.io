@@ -1791,28 +1791,28 @@
                     role: "MVP🏅",
                     company: "芝加哥公牛队",
                     date: "2022 - Present",
-                    image: "/companies/01_Terra_color.png",
+                    image: "/companies/bs.png",
                     foreground: "#FFFFFF",
                     background: "#2F61EA"
                 }, {
                     role: "总冠军🏆",
                     company: "洛杉矶湖人队",
                     date: "2019 - 2022",
-                    image: "/companies/verb.png",
+                    image: "/companies/bs.png",
                     foreground: "#FFFFFF",
                     background: "#911E54"
                 }, {
                     role: "得分王💯",
                     company: "圣安东尼奥马刺队",
                     date: "2019 - 2019",
-                    image: "/companies/PNI.png",
+                    image: "/companies/bs.png",
                     foreground: "#FFFFFF",
                     background: "#0CADD6"
                 }, {
                     role: "奥运会金牌🥇",
                     company: "公牛队",
                     date: "2018 - 2019",
-                    image: "/companies/factom.png",
+                    image: "/companies/bs.png",
                     foreground: "#FFFFFF",
                     background: "#656666"
                 }],
@@ -2014,7 +2014,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
-                                        src: "/companies/01_Terra_color.png",
+                                        src: "/companies/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2131,7 +2131,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
-                                        src: "/companies/01_Terra_color.png",
+                                        src: "/companies/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2201,7 +2201,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
-                                        src: "/companies/01_Terra_color.png",
+                                        src: "/companies/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2271,7 +2271,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
-                                        src: "/companies/01_Terra_color.png",
+                                        src: "/companies/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2341,7 +2341,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
-                                        src: "/companies/01_Terra_color.png",
+                                        src: "/companies/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2407,7 +2407,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
-                                        src: "/companies/01_Terra_color.png",
+                                        src: "/companies/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
