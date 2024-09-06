@@ -1644,7 +1644,7 @@
                                             src: "star1.svg",
                                             alt: "Star",
                                             className: "h-4 w-4 mx-2"
-                                        }), " ", "😃欢迎来到，我的个人 ", (0, a.jsx)("b", {
+                                        }), " ", "😜欢迎来到，我的个人 ", (0, a.jsx)("b", {
                                             className: "ml-1.5",
                                             children: "网站"
                                         }), " "]
@@ -1883,7 +1883,7 @@
                                     children: "7年"
                                 }), (0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90 text-center",
-                                    children: "时间轴"
+                                    children: "时间轴🕒"
                                 })]
                             }), (0, a.jsxs)("div", {
                                 className: "flex flex-col relative z-10 lg:justify-around",
@@ -1942,7 +1942,7 @@
                                 className: "absolute h-[35%] sm:h-[40%] w-fit aspect-[169/83] xs:left-[2%] shadow-xl",
                                 children: (0, a.jsx)(S.default, {
                                     src: "Memoji_Big_Smile.png",
-                                    alt: "伟杰",
+                                    alt: "伟杰9️⃣",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1953,7 +1953,7 @@
                                 className: "absolute h-[8%] max-h-10 w-fit aspect-[115/32] right-0 xs:right-[5%] top-[15%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)(S.default, {
                                     src: "/projects/station-ui/checkbox.png",
-                                    alt: "家桢",
+                                    alt: "家桢8️⃣",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1964,7 +1964,7 @@
                                 className: "absolute h-[18%] max-h-20 w-fit aspect-[115/32] rounded-xl overflow-hidden bottom-[2%] xs:bottom-[12%] right-[2%] opacity-80 shadow-xl",
                                 children: (0, a.jsx)(S.default, {
                                     src: "/projects/station-ui/color.png",
-                                    alt: "基哥",
+                                    alt: "基哥3️⃣",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1975,7 +1975,7 @@
                                 className: "absolute h-[10%] xs:h-[16%] max-h-20 w-fit aspect-[343/60] overflow-hidden left-0 xs:left-[10%] top-[40%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)(S.default, {
                                     src: "/projects/station-ui/input.png",
-                                    alt: "治清",
+                                    alt: "治清1️⃣",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1986,7 +1986,7 @@
                                 className: "absolute sm:h-[30%] h-[20%] max-h-20 w-fit aspect-[332/105] overflow-hidden left-1 bottom-[25%] xs:bottom-[5%] shadow-xl",
                                 children: (0, a.jsx)(S.default, {
                                     src: "/projects/station-ui/status-box.png",
-                                    alt: "懋钾",
+                                    alt: "懋钾6️⃣",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1997,7 +1997,7 @@
                                 className: "absolute sm:h-[30%] xs:h-[20%] h-[15%] max-h-20 w-fit aspect-[339/119] overflow-hidden right-0 top-[40%] xs:top-[8%] shadow-xl",
                                 children: (0, a.jsx)(S.default, {
                                     src: "/projects/station-ui/swap-from.png",
-                                    alt: "阿赖",
+                                    alt: "阿赖🔟",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -2010,7 +2010,7 @@
                             children: [(0, a.jsxs)("h4", {
                                 className: "text-xs font-medium opacity-80 uppercase flex flex-wrap gap-2 items-center",
                                 children: [(0, a.jsx)("span", {
-                                    children: "XXX"
+                                    children: "XXX🎨"
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)(S.default, {
@@ -2018,7 +2018,7 @@
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
-                                    }), "XXX Labs"]
+                                    }), "XXX🖼 Labs"]
                                 })]
                             }), (0, a.jsx)("div", {
                                 className: "w-full flex gap-2 items-center",
@@ -2031,23 +2031,27 @@
                                 children: [(0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "伟杰"
+                                    children: "伟杰9️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "基哥"
+                                    children: "基哥3️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "家桢"
+                                    children: "家桢8️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "懋钾"
+                                    children: "懋钾6️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "治清"
+                                    children: "治清1️⃣"
+                                }), (0, a.jsx)(es, {
+                                    variant: "default",
+                                    className: "text-xs",
+                                    children: "阿赖🔟"
                                 })]
                             })]
                         })]
@@ -2137,7 +2141,7 @@
                                 className: "w-full flex gap-2 items-center",
                                 children: [(0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
-                                    children: "SEEk官方网站"
+                                    children: "🧭SEEk官方网站"
                                 }), (0, a.jsx)(ex, {
                                     link: "/SEEK",
                                     lottieName: "StationLandingIcon"
@@ -2207,7 +2211,7 @@
                                 className: "w-full flex gap-2 items-center",
                                 children: [(0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
-                                    children: "公众号：纵有疾风驰"
+                                    children: "✨公众号：纵有疾风驰"
                                 }), (0, a.jsx)(ex, {
                                     link: "https://laiyongzhao.com/",
                                     lottieName: "StationSetupIcon"
@@ -2277,7 +2281,7 @@
                                 className: "w-full flex gap-2 items-center",
                                 children: [(0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
-                                    children: "阿赖的个人网站，瞎折腾下"
+                                    children: "💻阿赖的个人网站，瞎折腾下"
                                 }), (0, a.jsx)(ex, {
                                     link: "https://laiyongzhao.com/",
                                     lottieName: "AllianceDaoIcon"
@@ -2347,7 +2351,7 @@
                                 className: "w-full flex gap-2 items-center",
                                 children: [(0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
-                                    children: "我的个人博客"
+                                    children: "📝我的个人博客"
                                 }), (0, a.jsx)(ex, {
                                     link: "https://studio.laiyongzhao.com/",
                                     lottieName: "AllianceLandingIcon"
@@ -2413,7 +2417,7 @@
                                 className: "w-full flex gap-2 items-center",
                                 children: [(0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
-                                    children: "写个啥？还没想好。"
+                                    children: "🤔写个啥？还没想好。"
                                 }), (0, a.jsx)(ex, {
                                     link: "https://laiyongzhao.com/",
                                     lottieName: "DeveloperLandingIcon"
@@ -2423,11 +2427,11 @@
                                 children: [(0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "SEEK"
+                                    children: "有心"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "SEEK"
+                                    children: "海峰"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
