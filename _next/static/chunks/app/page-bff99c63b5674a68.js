@@ -1371,7 +1371,10 @@
                             children: [(0, a.jsx)("div", {
                                 className: "relative w-16 h-16 min-w-16 sm:w-24 sm:min-w-24 sm:h-24 p-[2px] z-0 overflow-hidden rounded-full shadow-memoji",
                                 children: (0, a.jsx)(S.default, {
-                                    src: "Memoji_Big_Smile.png",
+                                    style: {
+                            backgroundImage: 'url("/_next/'.concat("dark" === i ? "navigation-night-v1" : "navigation-day-v1", '/300x300.png")')
+                        },
+                                    src: "/projects/station-ui/Memoji_Big_Smile.png",
                                     alt: "我的头像",
                                     fill: !0,
                                     priority: !0
@@ -1941,6 +1944,7 @@
                             children: [(0, a.jsx)("div", {
                                 className: "absolute h-[35%] sm:h-[40%] w-fit aspect-[169/83] xs:left-[2%] shadow-xl",
                                 children: (0, a.jsx)(S.default, {
+                                    
                                     src: "Memoji_Big_Smile.png",
                                     alt: "伟杰9️⃣",
                                     fill: !0,
