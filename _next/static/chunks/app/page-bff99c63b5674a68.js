@@ -1379,16 +1379,14 @@
                                     fill: !0,
                                     priority: !0
                                 })
-                            }), (0, a.jsx)("div", {
-                                className: "flex flex-col justify-center",
-                                children: (0, a.jsx)("h1", {
+                            }), (0, a.jsx)("h1", {
                                     className: "font-silka text-2xl sm:text-4xl leading-tight font-medium text-slate-900 dark:text-white",
-                                    children: "🔱赖永钊"
+                                    children: "🔱赖永钊",
                                 })
-                            })]
+                            ]
                         }), (0, a.jsxs)("p", {
                             className: "dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm",
-                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10"]
+                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "微信号：lailailai10"]
                         })]
                     })
                 });
