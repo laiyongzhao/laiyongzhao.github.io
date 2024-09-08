@@ -1374,7 +1374,7 @@
                                     style: {
                             backgroundImage: 'url("/_next/'.concat("dark" === i ? "navigation-night-v1" : "navigation-day-v1", '/300x300.png")')
                         },
-                                    src: "/projects/station-ui/Memoji_Big_Smile.png",
+                                    src: "/Memoji_Big_Smile.png",
                                     alt: "我的头像",
                                     fill: !0,
                                     priority: !0
