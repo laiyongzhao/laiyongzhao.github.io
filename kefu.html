@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* 自定义悬浮入口的位置 */
+        #position_demo {
+            position: absolute;
+            right: 10px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <div id="position_demo"></div>
+    点击右下角的客服图标了解信息！
+    <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/0.1.0-beta.5/libs/cn/index.js"></script>
+    <script>
+        const bot_id = '7408031487721160742';
+        const title = '中标锦鲤AI客服';
+        const icon = '_next/static/images/kefu.png';
+        const lang = 'zh-CN';
+        const layout = 'pc';
+        const width = 800;
+
+        new CozeWebSDK.WebChatClient({
+            config: {
+                bot_id,
+            },
+            componentProps: {
+                title,
+                icon,
+                width,
+            },
+            el: document.getElementById('position_demo'),
+        });
+    </script>
+</body>
+
+</html>
