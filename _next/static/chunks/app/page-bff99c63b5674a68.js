@@ -1370,11 +1370,8 @@
                             className: "flex gap-2 sm:gap-6 flex-col items-center sm:justify-start sm:flex-row",
                             children: [(0, a.jsx)("div", {
                                 className: "relative w-16 h-16 min-w-16 sm:w-24 sm:min-w-24 sm:h-24 p-[2px] z-0 overflow-hidden rounded-full shadow-memoji",
-                                children: (0, a.jsx)(S.default, {
-                                    style: {
-                            backgroundImage: 'url("/_next/'.concat("dark" === i ? "navigation-night-v1" : "navigation-day-v1", '/300x300.png")')
-                        },
-                                    src: "/Memoji_Big_Smile.png",
+                                children: (0, a.jsx)("img", {
+                                    src: "/_next/static/images/Memoji_Big_Smile.webp",
                                     alt: "我的头像",
                                     fill: !0,
                                     priority: !0
