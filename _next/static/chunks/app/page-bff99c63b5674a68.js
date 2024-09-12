@@ -1383,7 +1383,7 @@
                             ]
                         }), (0, a.jsxs)("p", {
                             className: "dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm",
-                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "SEEK官方网站：http://laiyongzhao.com/SEEK"]
+                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "SEEK官方网站：https://laiyongzhao.com/SEEK"]
                         })]
                     })
                 });
