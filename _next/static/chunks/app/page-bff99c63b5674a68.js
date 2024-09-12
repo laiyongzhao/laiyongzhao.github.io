@@ -2111,7 +2111,7 @@
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl",
                                 //children: (0, a.jsx)(S.default, {
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Alliance-dao.png",
+                                    src: "/_next/static/images/Station-money.jpg",
                                     alt: "填充的文字",
                                     fill: !0,
                                     style: {
@@ -2181,7 +2181,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl rounded-lg",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Station-Setup.png",
+                                    src: "/_next/static/images/Station-Setup.jpg",
                                     alt: "HAHAHA",
                                     fill: !0,
                                     style: {
@@ -2251,7 +2251,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/451] shadow-2xl rounded-lg",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Alliance-dao.png",
+                                    src: "/_next/static/images/Alliance-dao.jpg",
                                     alt: "HAHAHA",
                                     fill: !0,
                                     style: {
