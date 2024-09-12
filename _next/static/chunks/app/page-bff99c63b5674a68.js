@@ -1383,7 +1383,7 @@
                             ]
                         }), (0, a.jsxs)("p", {
                             className: "dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm",
-                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "微信号：lailailai10"]
+                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "SEEK官方网站：http://laiyongzhao.com/SEEK"]
                         })]
                     })
                 });
@@ -1939,7 +1939,7 @@
                             children: [(0, a.jsx)("div", {
                                 className: "absolute h-[35%] sm:h-[40%] w-fit aspect-[169/83] xs:left-[2%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/assets.png",
+                                    src: "/_next/static/images/weijie.png",
                                     alt: "伟杰9️⃣",
                                     fill: !0,
                                     style: {
@@ -1950,7 +1950,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute h-[8%] max-h-10 w-fit aspect-[115/32] right-0 xs:right-[5%] top-[15%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/checkbox.png",
+                                    src: "/_next/static/images/alai.png",
                                     alt: "阿赖🔟",
                                     fill: !0,
                                     style: {
@@ -1961,7 +1961,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute h-[18%] max-h-20 w-fit aspect-[115/32] rounded-xl overflow-hidden bottom-[2%] xs:bottom-[12%] right-[2%] opacity-80 shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/color.png",
+                                    src: "/_next/static/images/jige.png",
                                     alt: "基哥3️⃣",
                                     fill: !0,
                                     style: {
@@ -1972,7 +1972,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute h-[10%] xs:h-[16%] max-h-20 w-fit aspect-[343/60] overflow-hidden left-0 xs:left-[10%] top-[40%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/input.png",
+                                    src: "/_next/static/images/zhiqing.png",
                                     alt: "治清1️⃣",
                                     fill: !0,
                                     style: {
@@ -1983,7 +1983,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute sm:h-[30%] h-[20%] max-h-20 w-fit aspect-[332/105] overflow-hidden left-1 bottom-[25%] xs:bottom-[5%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/status-box.png",
+                                    src: "/_next/static/images/maojia.png",
                                     alt: "懋钾6️⃣",
                                     fill: !0,
                                     style: {
@@ -1994,7 +1994,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute sm:h-[30%] xs:h-[20%] h-[15%] max-h-20 w-fit aspect-[339/119] overflow-hidden right-0 top-[40%] xs:top-[8%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/swap-from.png",
+                                    src: "/_next/static/images/jiazhen.png",
                                     alt: "家桢8️⃣",
                                     fill: !0,
                                     style: {
