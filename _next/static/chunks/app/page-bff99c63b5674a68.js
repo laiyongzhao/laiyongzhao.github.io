@@ -1371,7 +1371,7 @@
                             children: [(0, a.jsx)("div", {
                                 className: "relative w-16 h-16 min-w-16 sm:w-24 sm:min-w-24 sm:h-24 p-[2px] z-0 overflow-hidden rounded-full shadow-memoji",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Memoji_Big_Smile.png",
+                                    src: "/_next/static/images/Memoji_Big_Smile.jpg",
                                     alt: "我的头像",
                                     fill: !0,
                                     priority: !0
