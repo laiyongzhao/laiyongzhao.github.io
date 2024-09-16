@@ -1383,7 +1383,7 @@
                             ]
                         }), (0, a.jsxs)("p", {
                             className: "dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm",
-                            children: ["珍惜当下", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "SEEK官方网站：https://laiyongzhao.com/SEEK"]
+                            children: ["佛日：人生有八苦：生、老、病、死、爱别离、怨长久、求不得、放不下。", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "SEEK官方网站：https://laiyongzhao.com/SEEK"]
                         })]
                     })
                 });
@@ -1634,7 +1634,7 @@
                                         maskImage: "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)",
                                         margin: "auto"
                                     },
-                                    children: ["欢迎来到，我的个人 ", (0, a.jsx)("b", {
+                                    children: ["欢迎来到，我的个人", (0, a.jsx)("b", {
                                         className: "ml-1.5",
                                         children: "网站"
                                     }), " ", [, , , , ].fill(0).map((e, i) => (0, a.jsxs)(l.Fragment, {
@@ -1642,9 +1642,9 @@
                                             src: "star1.svg",
                                             alt: "Star",
                                             className: "h-4 w-4 mx-2"
-                                        }), " ", "😜欢迎来到，我的个人 ", (0, a.jsx)("b", {
+                                        }), " ", "🙏一忧一喜皆心火，一荣一枯皆眼尘，静心看透炎凉事，千古不做梦里人。 ", (0, a.jsx)("b", {
                                             className: "ml-1.5",
-                                            children: "网站"
+                                            children: "😜欢迎来到，我的个人网站"
                                         }), " "]
                                     }, i)), (0, a.jsx)("img", {
                                         src: "star1.svg",
@@ -1940,7 +1940,7 @@
                                 className: "absolute h-[35%] sm:h-[40%] w-fit aspect-[169/83] xs:left-[2%] shadow-xl",
                                 children: (0, a.jsx)("img", {
                                     src: "/_next/static/images/weijie.png",
-                                    alt: "伟杰9️⃣",
+                                    alt: "伟杰",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1951,7 +1951,7 @@
                                 className: "absolute h-[8%] max-h-10 w-fit aspect-[115/32] right-0 xs:right-[5%] top-[15%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)("img", {
                                     src: "/_next/static/images/alai.png",
-                                    alt: "阿赖🔟",
+                                    alt: "阿赖",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1962,7 +1962,7 @@
                                 className: "absolute h-[18%] max-h-20 w-fit aspect-[115/32] rounded-xl overflow-hidden bottom-[2%] xs:bottom-[12%] right-[2%] opacity-80 shadow-xl",
                                 children: (0, a.jsx)("img", {
                                     src: "/_next/static/images/jige.png",
-                                    alt: "基哥3️⃣",
+                                    alt: "基哥",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1973,7 +1973,7 @@
                                 className: "absolute h-[10%] xs:h-[16%] max-h-20 w-fit aspect-[343/60] overflow-hidden left-0 xs:left-[10%] top-[40%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)("img", {
                                     src: "/_next/static/images/zhiqing.png",
-                                    alt: "治清1️⃣",
+                                    alt: "治清",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1984,7 +1984,7 @@
                                 className: "absolute sm:h-[30%] h-[20%] max-h-20 w-fit aspect-[332/105] overflow-hidden left-1 bottom-[25%] xs:bottom-[5%] shadow-xl",
                                 children: (0, a.jsx)("img", {
                                     src: "/_next/static/images/maojia.png",
-                                    alt: "懋钾6️⃣",
+                                    alt: "懋钾",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -1995,7 +1995,7 @@
                                 className: "absolute sm:h-[30%] xs:h-[20%] h-[15%] max-h-20 w-fit aspect-[339/119] overflow-hidden right-0 top-[40%] xs:top-[8%] shadow-xl",
                                 children: (0, a.jsx)("img", {
                                     src: "/_next/static/images/jiazhen.png",
-                                    alt: "家桢8️⃣",
+                                    alt: "家桢",
                                     fill: !0,
                                     style: {
                                         objectFit: "contain",
@@ -2029,27 +2029,27 @@
                                 children: [(0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "伟杰9️⃣"
+                                    children: "⛹️伟杰9️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "基哥3️⃣"
+                                    children: "⛹️‍♂️基哥3️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "家桢8️⃣"
+                                    children: "⛹️‍♀️家桢8️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "懋钾6️⃣"
+                                    children: "⛹️懋钾6️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "治清1️⃣"
+                                    children: "⛹️‍♂️治清1️⃣"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "阿赖🔟"
+                                    children: "⛹️‍♀️阿赖🔟"
                                 })]
                             })]
                         })]
