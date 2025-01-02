@@ -2282,7 +2282,7 @@
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
                                     children: "💻阿赖的个人网站，瞎折腾下"
                                 }), (0, a.jsx)(ex, {
-                                    link: "https://laiyongzhao.com/",
+                                    link: "http://bolg.laiyongzhao.com/",
                                     lottieName: "AllianceDaoIcon"
                                 })]
                             }), (0, a.jsxs)("div", {
