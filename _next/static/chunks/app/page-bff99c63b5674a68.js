@@ -1383,7 +1383,7 @@
                             ]
                         }), (0, a.jsxs)("p", {
                             className: "dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm",
-                            children: ["佛日：人生有八苦：生、老、病、死、爱别离、怨长久、求不得、放不下。", (0, a.jsx)("br", {}), "微信号：lailailai10",(0, a.jsx)("br", {}), "SEEK官方网站：https://laiyongzhao.com/SEEK"]
+                            children: ["佛日：人生有八苦：生、老、病、死、爱别离、怨长久、求不得、放不下。", (0, a.jsx)("br", {}), "微信号：ebyte-tech",(0, a.jsx)("br", {}), "SEEK官方网站：https://laiyongzhao.com/SEEK"]
                         })]
                     })
                 });
