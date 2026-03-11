@@ -1383,7 +1383,7 @@
                             ]
                         }), (0, a.jsxs)("p", {
                             className: "dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm",
-                            children: ["佛日：人生有八苦：生、老、病、死、爱别离、怨长久、求不得、放不下。", (0, a.jsx)("br", {}), "微信号：ebyte-tech",(0, a.jsx)("br", {}), "SEEK官方网站：https://laiyongzhao.com/SEEK"]
+                            children: ["佛日：人生有八苦：生、老、病、死、爱别离、怨长久、求不得、放不下。", (0, a.jsx)("br", {}), "微信号：ebyte-tech",(0, a.jsx)("br", {}), "SEEK官方网站：https://likeif.com/SEEK"]
                         })]
                     })
                 });
@@ -1543,7 +1543,7 @@
                         (await t.e(705).then(t.t.bind(t, 4698, 23))).default.stop("DownloadIcon")
                     };
                     return (0, a.jsx)("a", {
-                        href: "http://studio.laiyongzhao.com/",
+                        href: "http://studio.likeif.com/",
                         download: !0,
                         className: "relative z-10",
                         children: (0, a.jsx)("div", {
@@ -2210,9 +2210,9 @@
                                 className: "w-full flex gap-2 items-center",
                                 children: [(0, a.jsx)("h1", {
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
-                                    children: "✨公众号：纵有疾风驰"
+                                    children: "✨公众号：铁人同学"
                                 }), (0, a.jsx)(ex, {
-                                    link: "https://laiyongzhao.com/",
+                                    link: "https://likeif.com/",
                                     lottieName: "StationSetupIcon"
                                 })]
                             }), (0, a.jsxs)("div", {
@@ -2282,7 +2282,7 @@
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
                                     children: "💻阿赖的个人网站，瞎折腾下"
                                 }), (0, a.jsx)(ex, {
-                                    link: "http://bolg.laiyongzhao.com/",
+                                    link: "http://bolg.likeif.com/",
                                     lottieName: "AllianceDaoIcon"
                                 })]
                             }), (0, a.jsxs)("div", {
@@ -2352,7 +2352,7 @@
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
                                     children: "📝我的个人博客"
                                 }), (0, a.jsx)(ex, {
-                                    link: "https://studio.laiyongzhao.com/",
+                                    link: "https://studio.likeif.com/",
                                     lottieName: "AllianceLandingIcon"
                                 })]
                             }), (0, a.jsxs)("div", {
@@ -2418,7 +2418,7 @@
                                     className: "text-2xl font-medium dark:text-white text-black uppercase opacity-90",
                                     children: "🤔写个啥？还没想好。"
                                 }), (0, a.jsx)(ex, {
-                                    link: "https://laiyongzhao.com/",
+                                    link: "https://likeif.com/",
                                     lottieName: "DeveloperLandingIcon"
                                 })]
                             }), (0, a.jsxs)("div", {
