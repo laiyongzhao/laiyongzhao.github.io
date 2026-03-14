@@ -1378,7 +1378,7 @@
                                 })
                             }), (0, a.jsx)("h1", {
                                     className: "font-silka text-2xl sm:text-4xl leading-tight font-medium text-slate-900 dark:text-white",
-                                    children: "🔱赖永钊",
+                                    children: "🔱铁人同学",
                                 })
                             ]
                         }), (0, a.jsxs)("p", {
@@ -1841,7 +1841,7 @@
                                 children: l
                             }), (0, a.jsx)("h1", {
                                 className: s()("text-3xl md:text-4xl font-medium dark:text-white text-black text-left w-fit", {
-                                    //这是赖永钊加的注释，删除线，半透明"line-through opacity-55": !n,
+                                    //这是铁人同学加的注释，删除线，半透明"line-through opacity-55": !n,
                                     "opacity-100": n
                                 }),
                                 children: r
@@ -2150,7 +2150,7 @@
                                 children: [(0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
-                                    children: "赖永钊"
+                                    children: "铁人同学"
                                 }), (0, a.jsx)(es, {
                                     variant: "default",
                                     className: "text-xs",
