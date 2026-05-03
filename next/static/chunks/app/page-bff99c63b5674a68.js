@@ -1371,7 +1371,7 @@
                             children: [(0, a.jsx)("div", {
                                 className: "relative w-16 h-16 min-w-16 sm:w-24 sm:min-w-24 sm:h-24 p-[2px] z-0 overflow-hidden rounded-full shadow-memoji",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Memoji_Big_Smile.jpg",
+                                    src: "/next/static/images/Memoji_Big_Smile.jpg",
                                     alt: "我的头像",
                                     fill: !0,
                                     priority: !0
@@ -1398,7 +1398,7 @@
                     children: (0, a.jsx)("div", {
                         className: "h-full w-full bg-center rounded-3xl",
                         style: {
-                            backgroundImage: 'url("/_next/'.concat("dark" === i ? "navigation-night-v1" : "navigation-day-v1", '/300x300.png")')
+                            backgroundImage: 'url("/next/'.concat("dark" === i ? "navigation-night-v1" : "navigation-day-v1", '/300x300.png")')
                         }
                     })
                 })
@@ -1939,7 +1939,7 @@
                             children: [(0, a.jsx)("div", {
                                 className: "absolute h-[35%] sm:h-[40%] w-fit aspect-[169/83] xs:left-[2%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/weijie.png",
+                                    src: "/next/static/images/weijie.png",
                                     alt: "伟杰",
                                     fill: !0,
                                     style: {
@@ -1950,7 +1950,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute h-[8%] max-h-10 w-fit aspect-[115/32] right-0 xs:right-[5%] top-[15%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/alai.png",
+                                    src: "/next/static/images/alai.png",
                                     alt: "阿赖",
                                     fill: !0,
                                     style: {
@@ -1961,7 +1961,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute h-[18%] max-h-20 w-fit aspect-[115/32] rounded-xl overflow-hidden bottom-[2%] xs:bottom-[12%] right-[2%] opacity-80 shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/jige.png",
+                                    src: "/next/static/images/jige.png",
                                     alt: "基哥",
                                     fill: !0,
                                     style: {
@@ -1972,7 +1972,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute h-[10%] xs:h-[16%] max-h-20 w-fit aspect-[343/60] overflow-hidden left-0 xs:left-[10%] top-[40%] xs:top-[45%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/zhiqing.png",
+                                    src: "/next/static/images/zhiqing.png",
                                     alt: "治清",
                                     fill: !0,
                                     style: {
@@ -1983,7 +1983,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute sm:h-[30%] h-[20%] max-h-20 w-fit aspect-[332/105] overflow-hidden left-1 bottom-[25%] xs:bottom-[5%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/maojia.png",
+                                    src: "/next/static/images/maojia.png",
                                     alt: "懋钾",
                                     fill: !0,
                                     style: {
@@ -1994,7 +1994,7 @@
                             }), (0, a.jsx)("div", {
                                 className: "absolute sm:h-[30%] xs:h-[20%] h-[15%] max-h-20 w-fit aspect-[339/119] overflow-hidden right-0 top-[40%] xs:top-[8%] shadow-xl",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/jiazhen.png",
+                                    src: "/next/static/images/jiazhen.png",
                                     alt: "家桢",
                                     fill: !0,
                                     style: {
@@ -2012,7 +2012,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)("img", {
-                                        src: "/_next/static/images/bs.png",
+                                        src: "/next/static/images/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2111,7 +2111,7 @@
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl",
                                 //children: (0, a.jsx)(S.default, {
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Station-money.jpg",
+                                    src: "/next/static/images/Station-money.jpg",
                                     alt: "填充的文字",
                                     fill: !0,
                                     style: {
@@ -2130,7 +2130,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)("img", {
-                                        src: "/_next/static/images/bs.png",
+                                        src: "/next/static/images/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2181,7 +2181,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl rounded-lg",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Station-Setup.jpg",
+                                    src: "/next/static/images/Station-Setup.jpg",
                                     alt: "HAHAHA",
                                     fill: !0,
                                     style: {
@@ -2200,7 +2200,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)("img", {
-                                        src: "/_next/static/images/bs.png",
+                                        src: "/next/static/images/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2251,7 +2251,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/451] shadow-2xl rounded-lg",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Alliance-dao.jpg",
+                                    src: "/next/static/images/Alliance-dao.jpg",
                                     alt: "HAHAHA",
                                     fill: !0,
                                     style: {
@@ -2270,7 +2270,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)("img", {
-                                        src: "/_next/static/images/bs.png",
+                                        src: "/next/static/images/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2321,7 +2321,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl rounded-lg",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Alliance-money.png",
+                                    src: "/next/static/images/Alliance-money.png",
                                     alt: "样本",
                                     fill: !0,
                                     style: {
@@ -2340,7 +2340,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)("img", {
-                                        src: "/_next/static/images/bs.png",
+                                        src: "/next/static/images/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
@@ -2387,7 +2387,7 @@
                             children: (0, a.jsx)("div", {
                                 className: "absolute h-full w-full aspect-[578/433] shadow-2xl rounded-lg",
                                 children: (0, a.jsx)("img", {
-                                    src: "/_next/static/images/Developer-landing.png",
+                                    src: "/next/static/images/Developer-landing.png",
                                     alt: "单细胞生物",
                                     fill: !0,
                                     style: {
@@ -2406,7 +2406,7 @@
                                 }), (0, a.jsxs)("span", {
                                     className: "flex gap-1",
                                     children: [(0, a.jsx)("img", {
-                                        src: "/_next/static/images/bs.png",
+                                        src: "/next/static/images/bs.png",
                                         alt: "TFL logo",
                                         height: 12,
                                         width: 16
